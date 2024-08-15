@@ -21,14 +21,14 @@ repository               : "academicpages/niloydebpmre.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.jpeg"
+  name             : "Niloy Deb"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : " Mechanical Engineering Graduate"
+  location         : "Dhaka - 1000, Bangladesh"
+  employer         : "Bangladesh University of Engineering and Technology"
+  uri              : https://niloydebpmre.github.io/webpage # URL
+  email            : "niloydeb@pmre.buet.ac.bd" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
