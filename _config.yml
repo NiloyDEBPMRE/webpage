@@ -12,9 +12,9 @@ title                    : "Niloy Deb / Personal Website"
 title_separator          : "-"
 name                     : &name "Niloy Deb"
 description              : &description "personal description"
-url                      : https://niloydebpmre.github.io/webpage # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://niloydebpmre.github.io/webpage" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/niloydebpmre.github.io"
+repository               : #"academicpages/niloydebpmre.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,31 +24,31 @@ author:
   avatar           : "profile.jpeg"
   name             : "Niloy Deb"
   pronouns         : # example: "she/her"  
-  bio              : " Mechanical Engineering Graduate"
+  bio              : " Mechanical Engineering Graduate| Lecturer - Dept. of PMRE, BUET | Researcher"
   location         : "Dhaka - 1000, Bangladesh"
-  employer         : "Bangladesh University of Engineering and Technology"
-  uri              : https://niloydebpmre.github.io/webpage # URL
+  employer         : "Bangladesh University of Engineering and Technology (BUET)"
+  uri              : "https://niloydebpmre.github.io/webpage" # URL
   email            : "niloydeb@pmre.buet.ac.bd" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=lhLrIrkAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Niloy-Deb-2" # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : #"academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/niloydebin" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
