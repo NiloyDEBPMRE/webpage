@@ -3,7 +3,7 @@ title: "MHD Free Convective Flow along with Internal Heat Generation and Joule H
 collection: publications
 category: conferences
 permalink: /publication/2023_ICME_Deb et al
-excerpt: 'Magnetohydrodynamics| Free Convection | Internal Het Generation | Joule Heating | Porous Medium'
+excerpt: 'Magnetohydrodynamics| Free Convection | Internal Heat Generation | Joule Heating | Porous Medium'
 date: 2024-02-17
 venue: '14 th International Conference on Mechanical Engineering (ICME), Dhaka, BUET'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910103'
