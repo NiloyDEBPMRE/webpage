@@ -9,13 +9,13 @@ redirect_from:
 
 <p style="text-align: justify;">I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
 
-<p>I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
+<p style="text-align: justify;">I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
 
-<p>The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better decision-making and system analysis in a cost-effective manner. I have acquired knowledge in statistics, Machine Learning, and Deep Learning, which I believe will help me advance further in my career.</p>
+<p style="text-align: justify;">The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better decision-making and system analysis in a cost-effective manner. I have acquired knowledge in statistics, Machine Learning, and Deep Learning, which I believe will help me advance further in my career.</p>
 
-<p>My goal is to build a career as an academician and a renowned researcher.</p>
+<p style="text-align: justify;">My goal is to build a career as an academician and a renowned researcher.</p>
 
-<p>My research interests focus on:</p>
+<p style="text-align: justify;">My research interests focus on:</p>
 <ul>
   <li>Data-Driven Science and Engineering - Machine Learning, Deep Learning, Statistical Modeling</li>
   <li>Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM</li>
@@ -34,21 +34,24 @@ This is the front page of a website that is powered by the [Academic Pages templ
 Updates
 ======
   
-        <h2>Recent Updates</h2>
-        <div class="update-item">
-            <div class="update-date">August 18, 2024</div>
-            <div class="update-description">Published a new research paper on "Chaotic Convection and Climate Dynamics" in XYZ Journal.</div>
-        </div>
-
-        <div class="update-item">
-            <div class="update-date">July 10, 2024</div>
-            <div class="update-description">Presented at the International Conference on Energy Science about "Data-Driven Approaches in Energy Systems."</div>
-        </div>
-
-        <div class="update-item">
-            <div class="update-date">June 25, 2024</div>
-            <div class="update-description">Started a new research project on "Transport through Porous Medium" funded by ABC organization.</div>
-        </div>
+<table style="border-collapse: collapse;">
+  <tr style="border: none;">
+    <th style="border: none; text-align: left; padding: 8px;">Date</th>
+    <th style="border: none; text-align: left; padding: 8px;">Update</th>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px;">2024-08-01</td>
+    <td style="border: none; padding: 8px;">Project Initiated</td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px;">2024-08-05</td>
+    <td style="border: none; padding: 8px;">Initial Research Completed</td>
+  </tr>
+  <tr style="border: none;">
+    <td style="border: none; padding: 8px;">2024-08-10</td>
+    <td style="border: none; padding: 8px;">Draft Report Submitted</td>
+  </tr>
+</table>
 
    
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
