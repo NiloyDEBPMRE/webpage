@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
+<p style="text-align: justify;">I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
 
 <p>I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
 
@@ -33,44 +33,8 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 Updates
 ======
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .updates-section {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .update-item {
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #fff;
-            border-left: 4px solid #007bff;
-            border-radius: 4px;
-        }
-        .update-item:last-child {
-            margin-bottom: 0;
-        }
-        .update-date {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 8px;
-        }
-        .update-description {
-            font-size: 16px;
-            color: #333;
-        }
-    </style>
-<body>
-
-    <div class="updates-section">
+  
         <h2>Recent Updates</h2>
-
         <div class="update-item">
             <div class="update-date">August 18, 2024</div>
             <div class="update-description">Published a new research paper on "Chaotic Convection and Climate Dynamics" in XYZ Journal.</div>
@@ -86,10 +50,7 @@ Updates
             <div class="update-description">Started a new research project on "Transport through Porous Medium" funded by ABC organization.</div>
         </div>
 
-        <!-- Add more update items as needed -->
-    </div>
-
-</body>
+   
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
