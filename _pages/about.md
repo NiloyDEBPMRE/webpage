@@ -1,11 +1,31 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Short Bio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am Niloy Deb. I passed my Bachelor of Science in Mechanical Engineering from the esteem Bangladesh University of Engineering and Technology (BUET) - a renowed technical institution in Bangladesh. I have the experience of working as a research assistant in 'Computational Fluid Dynamics and Heat Transfer Research Grpup (CFDHT)' under the supervision (PI) of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE), BUET (my alma matter). 
+
+I have a keen interest in the field of Thermodynamics, Fluid Mechanics and Heat Transfer, which encourage me to explore further in Energy Science in general. I mostly facinated by the chaotic dynamical system and the physics of Convection. Feedback mechanism can reshape the dynamical system behavior where control is the key. 
+
+In recent surge of unprecedent amount of data from better measurement, experiment, and computation reveals the necessity of Data Analytics. Different statistical techniques backed up the recent advancement in the Atifical Intelligence enable us to make better decision and analyze any system better, in a cost effective way. I acquired the statiscal, Machine learning and Deep Learing knowledege which I believe will help me to proceed further. 
+
+My goal is to build up my career as an academician and a renowed researcher.
+
+My research interest focuses on: 
+• Data-Driven Science and Engineering - Machine Learning, Deep Learning, Statistical Modeling
+• Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM
+• Non-linear Dynamics and Control
+• Climate Change and Climate Modeling
+• Chaotic Convection and Climate Dynamics
+• Transport through Porous Medium
+• Complex and Multiphase Fluid Flow and Heat Transfer
+• Energy Science and Engineering
+
+
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a research, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
