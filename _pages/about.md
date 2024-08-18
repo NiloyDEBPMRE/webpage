@@ -7,30 +7,89 @@ redirect_from:
   - /about.html
 ---
 
-I am Niloy Deb. I passed my Bachelor of Science in Mechanical Engineering from the esteem Bangladesh University of Engineering and Technology (BUET) - a renowed technical institution in Bangladesh. I have the experience of working as a research assistant in 'Computational Fluid Dynamics and Heat Transfer Research Grpup (CFDHT)' under the supervision (PI) of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE), BUET (my alma matter). 
+<p>I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
 
-I have a keen interest in the field of Thermodynamics, Fluid Mechanics and Heat Transfer, which encourage me to explore further in Energy Science in general. I mostly facinated by the chaotic dynamical system and the physics of Convection. Feedback mechanism can reshape the dynamical system behavior where control is the key. 
+<p>I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
 
-In recent surge of unprecedent amount of data from better measurement, experiment, and computation reveals the necessity of Data Analytics. Different statistical techniques backed up the recent advancement in the Atifical Intelligence enable us to make better decision and analyze any system better, in a cost effective way. I acquired the statiscal, Machine learning and Deep Learing knowledege which I believe will help me to proceed further. 
+<p>The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better decision-making and system analysis in a cost-effective manner. I have acquired knowledge in statistics, Machine Learning, and Deep Learning, which I believe will help me advance further in my career.</p>
 
-My goal is to build up my career as an academician and a renowed researcher.
+<p>My goal is to build a career as an academician and a renowned researcher.</p>
 
-My research interest focuses on: 
-• Data-Driven Science and Engineering - Machine Learning, Deep Learning, Statistical Modeling
-• Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM
-• Non-linear Dynamics and Control
-• Climate Change and Climate Modeling
-• Chaotic Convection and Climate Dynamics
-• Transport through Porous Medium
-• Complex and Multiphase Fluid Flow and Heat Transfer
-• Energy Science and Engineering
+<p>My research interests focus on:</p>
+<ul>
+  <li>Data-Driven Science and Engineering - Machine Learning, Deep Learning, Statistical Modeling</li>
+  <li>Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM</li>
+  <li>Non-linear Dynamics and Control</li>
+  <li>Climate Change and Climate Modeling</li>
+  <li>Chaotic Convection and Climate Dynamics</li>
+  <li>Transport through Porous Medium</li>
+  <li>Complex and Multiphase Fluid Flow and Heat Transfer</li>
+  <li>Energy Science and Engineering</li>
+</ul>
 
 
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a research, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
+Updates
 ======
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .updates-section {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .update-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .update-item:last-child {
+            margin-bottom: 0;
+        }
+        .update-date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .update-description {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+<body>
+
+    <div class="updates-section">
+        <h2>Recent Updates</h2>
+
+        <div class="update-item">
+            <div class="update-date">August 18, 2024</div>
+            <div class="update-description">Published a new research paper on "Chaotic Convection and Climate Dynamics" in XYZ Journal.</div>
+        </div>
+
+        <div class="update-item">
+            <div class="update-date">July 10, 2024</div>
+            <div class="update-description">Presented at the International Conference on Energy Science about "Data-Driven Approaches in Energy Systems."</div>
+        </div>
+
+        <div class="update-item">
+            <div class="update-date">June 25, 2024</div>
+            <div class="update-description">Started a new research project on "Transport through Porous Medium" funded by ABC organization.</div>
+        </div>
+
+        <!-- Add more update items as needed -->
+    </div>
+
+</body>
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
