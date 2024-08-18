@@ -34,24 +34,18 @@ This is the front page of a website that is powered by the [Academic Pages templ
 Updates
 ======
   
-<table style="border-collapse: collapse;">
-  <tr style="border: none;">
-    <th style="border: none; text-align: left; padding: 8px;">Date</th>
-    <th style="border: none; text-align: left; padding: 8px;">Update</th>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 8px;">2024-08-01</td>
-    <td style="border: none; padding: 8px;">Project Initiated</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 8px;">2024-08-05</td>
-    <td style="border: none; padding: 8px;">Initial Research Completed</td>
-  </tr>
-  <tr style="border: none;">
-    <td style="border: none; padding: 8px;">2024-08-10</td>
-    <td style="border: none; padding: 8px;">Draft Report Submitted</td>
-  </tr>
-</table>
+<ul style="list-style-type: none; padding: 0;">
+  <li style="margin-bottom: 10px;">
+    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-01:</span> Project Initiated
+  </li>
+  <li style="margin-bottom: 10px;">
+    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-05:</span> Initial Research Completed
+  </li>
+  <li style="margin-bottom: 10px;">
+    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-10:</span> Draft Report Submitted
+  </li>
+</ul>
+
 
    
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
