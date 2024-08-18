@@ -22,12 +22,12 @@ Work experience
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
+* Fall 2015: research Assistant
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
+* Summer 2015: research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git

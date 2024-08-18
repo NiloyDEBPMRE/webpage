@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "Niloy Deb"
   pronouns         : # example: "she/her"  
-  bio              : " Mechanical Engineering Graduate - Dept. of ME, BUET| Lecturer - Dept. of PMRE, BUET | Researcher - Data Driven Science and Engineering, Computational Modeling of Nonlinear Phenomena, Climate Dynamics, to name a few"
+  bio              : " Mechanical Engineering Graduate - Dept. of ME, BUET| Lecturer - Dept. of PMRE, BUET | researcher - Data Driven Science and Engineering, Computational Modeling of Nonlinear Phenomena, Climate Dynamics, to name a few"
   location         : "Dhaka - 1000, Bangladesh"
   employer         : "Bangladesh Uni. of Engg. & Tech."
   uri              : "https://niloydebpmre.github.io/webpage" # URL
@@ -215,7 +215,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -261,10 +261,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
