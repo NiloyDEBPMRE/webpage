@@ -3,7 +3,7 @@ title: "Entropy generation on magnetohydrodynamic conjugate free convection with
 collection: publications
 category: manuscripts
 permalink: /publication/2024_CSTE_Sadia et al
-excerpt: "Conjugate Natural Convection| Heat-generating Liquids and Solid"
+excerpt: "<b>Conjugate Natural Convection</b>| <b>Heat-generating Liquids and Solid</b>"
 date: 2023-11-01
 venue: 'Case Studies in Thermal Engineering'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'

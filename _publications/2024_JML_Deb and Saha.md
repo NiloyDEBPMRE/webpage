@@ -3,7 +3,7 @@ title: "Comment on “Energy transfer through mixed convection within square enc
 collection: publications
 category: manuscripts
 permalink: /publication/2024_JML_Deb and Saha
-excerpt: "Letter to Editor - Short Communication | Correction of Formulation and Results | Micropolar Fluids"
+excerpt: "<b>Letter to Editor - Short Communication </b>| <b>Correction of Formulation and Results</b> | <b>Micropolar Fluids</b>"
 date: 2024-06-06
 venue: 'Journal of Molecular Liquids'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'

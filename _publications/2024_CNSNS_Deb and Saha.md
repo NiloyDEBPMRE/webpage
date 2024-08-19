@@ -3,7 +3,7 @@ title: "Comment on “Numerical simulation of magnetohydrodynamic buoyancy-induc
 collection: publications
 category: manuscripts
 permalink: /publication/2024_CNSNS_Deb and Saha
-excerpt: "Letter to Editor | Correction of Formulation and Results"
+excerpt: "<b>Letter to Editor</b> | <b>Correction of Formulation and Results</b>"
 date: 2023-12-06
 venue: 'Communications in Nonlinear Science and Numerical Simulation'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'

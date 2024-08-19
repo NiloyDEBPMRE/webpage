@@ -4,7 +4,7 @@ generation and mixed convective flow in a square domain"
 collection: publications
 category: manuscripts
 permalink: /publication/2024_ANE_Deb and Saha
-excerpt: "Mixed Convection| Internal Heat Generation| Magnetism| Joule Heating"
+excerpt: "<b>Mixed Convection</b>| <b>Internal Heat Generation</b>| <b>Magnetism</b>| <b>Joule Heating</b>"
 date: 2023-12-16
 venue: 'Annals of Nuclear Energy'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'

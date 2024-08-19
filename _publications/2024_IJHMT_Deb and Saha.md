@@ -3,7 +3,7 @@ title: "Comment on “Steady natural convection flows in a square cavity with li
 collection: publications
 category: manuscripts
 permalink: /publication/2024_IJHMT_Deb and Saha
-excerpt: "Comment on Published Article | Nusselt Number Calculation- Generalized Expression for Different Thermal Boundary Conditions| Formulation from the First Principle"
+excerpt: "C<b>omment on Published Article</b> | <b>Nusselt Number Calculation- Generalized Expression for Different Thermal Boundary Conditions</b>| <b>Formulation from the First Principle</b>"
 date: 2023-11-01
 venue: 'International Journal of Heat and Mass Transfer'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'

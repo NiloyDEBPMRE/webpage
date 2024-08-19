@@ -4,7 +4,7 @@ cuboid using P, PI and PID controllers"
 collection: publications
 category: manuscripts
 permalink: /publication/2023_CSTE_Deb et al
-excerpt: "Computational Modeling of Nonlinear System| Thermal Management in a Coupled Thermofluidic System| P, PI, and PID Controllers| Controller Feedback and System Response | Flow and Thermal Field Visualization"
+excerpt: "<b>Computational Modeling of Nonlinear System </b>| <b>Thermal Management in a Coupled Thermofluidic System</b>| <b>P, PI, and PID Controllers </b>| <b>Controller Feedback and System Response </b>| <b>Flow and Thermal Field Visualization</b>"
 date: 2023-10-09
 venue: 'Case Studies in Thermal Engineering'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
