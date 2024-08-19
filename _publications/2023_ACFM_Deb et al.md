@@ -1,5 +1,5 @@
 ---
-title: " <h3> Evaluation of Heat Transfer and Melting Process of a PCM inside a Trapezoidal Shaped Enclosure </h3>"
+title: "Evaluation of Heat Transfer and Melting Process of a PCM inside a Trapezoidal Shaped Enclosure"
 collection: publications
 category: conferences
 permalink: /publication/2023_ACFM_Deb et al
