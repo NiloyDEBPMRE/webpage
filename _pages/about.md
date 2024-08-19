@@ -7,15 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-<p style="text-align: justify; font-size: 13px">I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
-<p style="text-align: justify; font-size: 13px">I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
-<p style="text-align: justify; font-size: 13px">The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better decision-making and system analysis in a cost-effective manner. I have acquired knowledge in statistics, Machine Learning, and Deep Learning, which I believe will help me advance further in my career.</p>
-<p style="text-align: justify; font-size: 13px">My goal is to build a career as an academician and a renowned researcher.</p>
-#Research Interest 
-#======
+<p style="text-align: justify; font-size: 15px">I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from the esteemed Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
+<p style="text-align: justify; font-size: 15px">I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key.</p>
+<p style="text-align: justify; font-size: 15px">The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better decision-making and system analysis in a cost-effective manner. I have acquired knowledge in statistics, Machine Learning, and Deep Learning, which I believe will help me advance further in my career.</p>
+<p style="text-align: justify; font-size: 15px">My goal is to build a career as an academician and a renowned researcher.</p>
+
 <h2> Research Interest </h2>
 
-<ul style="list-style-type: none; padding: 0; font-size: 13px">
+<ul style="list-style-type: none; padding: 0; font-size: 15px">
     <li style="margin-bottom: 10px;">
       <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Data-Driven Science and Engineering - Machine Learning, Deep Learning, Statistical Modeling
     </li>
@@ -42,11 +41,9 @@ redirect_from:
     </li>
   </ul>
 
-#Updates
-#======
   <h2> Updates </h2>
 
-<ul style="list-style-type: none; padding: 0; font-size: 13px;">
+<ul style="list-style-type: none; padding: 0; font-size: 15px;">
   <li style="margin-bottom: 10px;">
     <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-01:</span> Project Initiated
   </li>
@@ -57,4 +54,18 @@ redirect_from:
     <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-10:</span> Draft Report Submitted
   </li>
 </ul>
+
+
+<h2 >Contact</h2>
+
+<p style="font-size: 15px;">
+  <b>Niloy Deb</b><br>
+  Lecturer<br>
+  Department of Petroleum and Mineral Resources Engineering<br>
+  Bangladesh University of Engineering and Technology<br>
+  Dhaka - 1000, Bangladesh<br>
+  Old Academic Building, Room No: 202 (B)<br>
+  <i class="fa fa-phone" style="margin-right: 8px;"></i> Mobile: +88(0)1768317141<br>
+  <i class="fa fa-envelope" style="margin-right: 8px;"></i> Email: niloydeb@pmre.buet.ac.bd
+</p>
 
