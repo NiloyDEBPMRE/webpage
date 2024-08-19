@@ -14,7 +14,7 @@ redirect_from:
 
 
 Research Interest 
-======
+===
 
 <ul style="list-style-type: none; padding: 0;">
     <li style="margin-bottom: 10px;">
@@ -46,7 +46,7 @@ Research Interest
 
 
 Updates
-======
+===
   
 <ul style="list-style-type: none; padding: 0;">
   <li style="margin-bottom: 10px;">
