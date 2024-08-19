@@ -3,7 +3,7 @@ title: "Evaluation of Heat Transfer and Melting Process of a PCM inside a Trapez
 collection: publications
 category: conferences
 permalink: /publication/2023_ACFM_Deb et al
-excerpt: 'Phase Change Material | Moving Interface/Boundary | Melting and Convection'
+excerpt: 'Phase Change Material, Moving Interface/Boundary, Melting and Convection'
 date: 2023-08-17
 venue: ' 17 th Asian Congress of Fluid Mechanics (ACFM), Beijing, China'
 paperurl: 'https://ieeexplore.ieee.org/document/10324590'
