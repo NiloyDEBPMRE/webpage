@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2024_ANE_Deb and Saha
 excerpt: "<b>Mixed Convection</b>| <b>Internal Heat Generation</b>| <b>Magnetism</b>| <b>Joule Heating</b>"
 date: 2023-12-16
-venue: 'Annals of Nuclear Energy'
+venue: '<b> Annals of Nuclear Energy </b>'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0306454923006436'
 citation: 'Deb, N., & Saha, S. (2024). Role of internal heat generation, magnetism and Joule heating on entropy generation and mixed convective flow in a square domain. Annals of Nuclear Energy, 198, 110324.'

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2023_ICME_Deb et al
 excerpt: ' <b> Magnetohydrodynamics</b>| <b>Free Convection </b>| <b>Internal Heat Generation </b>| <b>Joule Heating </b>| <b>Porous Medium</b>'
 date: 2024-02-17
-venue: '14 th International Conference on Mechanical Engineering (ICME), Dhaka, BUET'
+venue: '<b> 14 th International Conference on Mechanical Engineering (ICME), Dhaka, BUET </b>'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910103'
 citation: 'Deb, N., Saha, S., & Islam, D. M. Q. (2024). MHD Free Convective Flow along with Internal Heat Generation and Joule Heating in a Two Layer Discretely Heated Chamber Partially Filled with Porous Medium. Available at SSRN 4910103.'
 ---

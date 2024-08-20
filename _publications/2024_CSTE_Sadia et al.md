@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024_CSTE_Sadia et al
 excerpt: "<b>Conjugate Natural Convection</b>| <b>Heat-generating Liquids and Solid</b>"
 date: 2023-11-01
-venue: 'Case Studies in Thermal Engineering'
+venue: '<b> Case Studies in Thermal Engineering </b>'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2214157X23010171'
 citation: 'Tasnim, S., Shuvo, M. S., Deb, N., Islam, M. S., & Saha, S. (2023). Entropy generation on magnetohydrodynamic conjugate free convection with Joule heating of heat-generating liquid and solid element inside a chamber. Case Studies in Thermal Engineering, 52, 103711.'

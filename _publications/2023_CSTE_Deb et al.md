@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2023_CSTE_Deb et al
 excerpt: "<b>Computational Modeling of Nonlinear System </b>| <b>Thermal Management in a Coupled Thermofluidic System</b>| <b>P, PI, and PID Controllers </b>| <b>Controller Feedback and System Response </b>| <b>Flow and Thermal Field Visualization</b>"
 date: 2023-10-09
-venue: 'Case Studies in Thermal Engineering'
+venue: '<b> Case Studies in Thermal Engineering </b>'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2214157X23009073'
 citation: 'Deb, N., Fardin, S., Fardin, M. M., Nawal, N., Nizam, M. R., & Saha, S. (2023). Thermal management inside a discretely heated rectangular cuboid using P, PI and PID controllers. <i> Case Studies in Thermal Engineering </i>, 51, 103601.'

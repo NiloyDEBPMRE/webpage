@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2023_RIE_Sakib et al
 excerpt: "<b>Finite Elememt Modeling</b>| <b>Natural Convection Coupled with Porous Medium Flow</b>| <b>Entropy Generation</b>"
 date: 2023-03-27
-venue: 'Results in Engineering'
+venue: '<b> Results in Engineering </b>'
 slidesurl: #'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2590123023001809'
 citation: 'Javed, S., Deb, N., & Saha, S. (2023). Natural convection and entropy generation inside a square chamber divided by a corrugated porous partition. <i> Results in Engineering </i>, 18, 101053.'
