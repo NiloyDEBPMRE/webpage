@@ -20,6 +20,10 @@ redirect_from:
 
 </section>
 
+<section id="download-cv">
+  <a href="link-to-cv.pdf" class="btn btn-primary">Download the PDF version of <strong>MY CV</strong></a>
+</section>
+
 <section id="education">
 <h2>Education</h2>
 <ul>
@@ -151,7 +155,7 @@ Publications
   <ul>
     <li>
       <strong>The Design of a Counter-Flow Shell and Helical Coil Tube Heat Exchanger (SHCTHX)</strong><br>
-      ME-310: Thermo-fluid System Design and Practice | February 2022
+      ME-310: Thermo-fluid System Design and Practice | February 2022<br>
         * Computer-aided design of mechanical components and systems<br>
         * Thermo-hydraulic calculations for a shell and helical coil tube heat exchanger<br>
         * Performance evaluation and optimization of the design<br>
@@ -190,7 +194,7 @@ Publications
   </ul>
 </section>
 
-<section id="technical-skills">
+<section id="technical-skills" style="font-size: 16px; line-height: 1.5;">
   <h2>Technical Skills</h2>
   <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
   <ul>
@@ -203,7 +207,7 @@ Publications
   </ul>
 </section>
 
-<section id="awards">
+<section id="awards" style="font-size: 16px; line-height: 1.5;">
   <h2>Awards and Achievements</h2>
   <ul>
     <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
@@ -214,9 +218,7 @@ Publications
 
 
 
-<section id="download-cv">
-  <a href="link-to-cv.pdf" class="btn btn-primary">Download the PDF version of <strong>MY CV</strong></a>
-</section>
+
 
 
 
