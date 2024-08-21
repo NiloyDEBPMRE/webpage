@@ -16,15 +16,13 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive", style = "text-align: justify; font-size: 16px;", id="archiveDiv">
+  <div class="archive", style = "text-align: justify; font-size: 16px; padding-right: 16.9491525424%;", id="archiveDiv">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h2 class="page__title">{{ page.title }}</h2>
     {% endunless %}
     {{ content }}
   </div>
 </div>
-
-# Added for conditional padding: padding-right: 16.9491525424%;
 
 <script>
   function applyConditionalPadding() {
