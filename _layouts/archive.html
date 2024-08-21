@@ -16,7 +16,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive", style = "text-align: justify; font-size: 16px; padding-right: 16.9491525424%;", id="archiveDiv">
+  <div class="archive", style = "text-align: justify; font-size: 16px; padding-right: 16.9491525424%;">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h2 class="page__title">{{ page.title }}</h2>
     {% endunless %}
@@ -24,19 +24,10 @@ layout: default
   </div>
 </div>
 
-<script>
-  function applyConditionalPadding() {
-    var archiveDiv = document.getElementById('archiveDiv');
-    if (window.innerWidth > 767) {
-      archiveDiv.style.paddingRight = '16.9491525424%';
-    } else {
-      archiveDiv.style.paddingRight = '0';
+<style>
+  @media only screen and (max-width: 767px) {
+    .archive {
+      padding-right: 0 !important;
     }
   }
-
-  // Apply padding on initial load
-  applyConditionalPadding();
-
-  // Reapply padding when the window is resized
-  window.onresize = applyConditionalPadding;
-</script>
+</style>
