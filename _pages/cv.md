@@ -13,16 +13,12 @@ redirect_from:
 <section id="basics" style="font-size: 16px; line-height: 1;">
   <h2 style="font-weight: bold;">Basics</h2>
   
-  <p><strong>Name:</strong> Niloy Deb</p>
-  
-  <p><strong>Label:</strong> Mechanical Engineering Graduate & Lecturer, Dept. of PMRE, BUET</p>
-  
-  <p><strong>Url:</strong> <a href="https://niloydebpmre.github.io/webpage" target="_blank">niloydebpmre.github.io/webpage</a></p>
-  
-  <p><strong>Summary:</strong> An aspiring individual interested in data-driven science and engineering, computational methods, and applied mathematics. Exploring the domain of dynamical systems and transport phenomena on both micro and macro scales.</p>
+  <p><strong>Name:</strong> Niloy Deb<br>
+    <strong>Label:</strong> Mechanical Engineering Graduate & Lecturer, Dept. of PMRE, BUET<br>
+  <strong>Url:</strong> <a href="https://niloydebpmre.github.io/webpage" target="_blank">niloydebpmre.github.io/webpage</a><br>
+  <strong>Summary:</strong> An aspiring individual interested in data-driven science and engineering, computational methods, and applied mathematics. Exploring the domain of dynamical systems and transport phenomena on both micro and macro scales.</p>
 
 </section>
-
 
 <section id="education">
 <h2>Education</h2>
@@ -40,7 +36,7 @@ redirect_from:
     </section>
 
 
-  <section id="interests", style="font-size: 16px; line-height: 1;">
+  <section id="interests" style="font-size: 16px; line-height: 1;">
         <h2>Interests</h2>
         <ul>
             <li>Data-Driven Science and Engineering - ML, DL, Statistical Modeling</li>
@@ -55,7 +51,7 @@ redirect_from:
     </section>
 
 
-  <section id="coursework",style="font-size: 16px; line-height: 1;">
+  <section id="coursework" style="font-size: 16px; line-height: 1;">
         <h2>Relevant Coursework</h2>
         <h3>Advanced Graduate Level and Self-Learning Courses</h3>
         <ul>
@@ -137,7 +133,7 @@ Publications
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
                 <em>Co-instructor, Directorate of Continuing Education, BUET</em><br>
                 Dhaka, Bangladesh | December 2023 (2 Days Workshop)<br>
-                <b> Short course on COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) <b><br>
+                <b> Short course on COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) </b><br>
                 Resource person: Dr. Sumon Saha, Professor, Dept. of ME, BUET
             </li>
             <li>
@@ -149,7 +145,7 @@ Publications
         </ul>
     </section>
 
- <section id="academic-project", style="font-size: 16px; line-height: 1;">
+ <section id="academic-project" style="font-size: 16px; line-height: 1;">
   <h2>Academic Projects</h2>
 
   <ul>
