@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+ <style>
+        /* Default padding for larger screens */
+        .archive {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        /* Remove padding for mobile screens */
+        @media only screen and (max-width: 768px) {
+            .archive {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    </style>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -15,7 +30,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive", style = "padding-right: 16.9491525424%; text-align: justify; font-size: 16px;">
+  <div class="archive"">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h2 class="page__title">{{ page.title }}</h2>
     {% endunless %}
