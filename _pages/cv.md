@@ -106,8 +106,7 @@ redirect_from:
         </ul>
     </section>
 
-Publications
-======
+<h2> Publications</h2>
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -194,7 +193,7 @@ Publications
   </ul>
 </section>
 
-<section id="technical-skills" style="font-size: 16px; line-height: 1.5;">
+<section id="technical-skills" style="font-size: 16px; line-height: 1;">
   <h2>Technical Skills</h2>
   <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
   <ul>
@@ -207,7 +206,7 @@ Publications
   </ul>
 </section>
 
-<section id="awards" style="font-size: 16px; line-height: 1.5;">
+<section id="awards" style="font-size: 16px; line-height: 1;">
   <h2>Awards and Achievements</h2>
   <ul>
     <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
