@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<section id="basics" style="font-size: 16px; line-height: 1;">
+<section id="basics" style="font-size: 16px; line-height: 1.5;">
   <h2 style="font-weight: bold;">Basics</h2>
   
   <p><strong>Name:</strong> Niloy Deb<br>
@@ -145,7 +145,7 @@ Publications
         </ul>
     </section>
 
- <section id="academic-project" style="font-size: 16px; line-height: 1;">
+ <section id="academic-project" style="font-size: 16px; line-height: 1.5;">
   <h2>Academic Projects</h2>
 
   <ul>
@@ -172,7 +172,7 @@ Publications
 </section>
 
 
-<section id="training-mooc", style="font-size: 16px; line-height: 1;">
+<section id="training-mooc" style="font-size: 16px; line-height: 1;">
   <h2>Training and MOOC Completion</h2>
   <p><em>Listed Partially</em></p>
   <ul>
