@@ -1,21 +1,7 @@
 ---
 layout: default
 ---
- <style>
-        /* Default padding for larger screens */
-        .archive {
-            padding-right: 20px;
-            padding-left: 20px;
-        }
 
-        /* Remove padding for mobile screens */
-        @media only screen and (max-width: 768px) {
-            .archive {
-                padding-right: 0;
-                padding-left: 0;
-            }
-        }
-    </style>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -30,10 +16,29 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive">
+  <div class="archive", style = "text-align: justify; font-size: 16px;", id="archiveDiv">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h2 class="page__title">{{ page.title }}</h2>
     {% endunless %}
     {{ content }}
   </div>
 </div>
+
+# Added for conditional padding: padding-right: 16.9491525424%;
+
+<script>
+  function applyConditionalPadding() {
+    var archiveDiv = document.getElementById('archiveDiv');
+    if (window.innerWidth > 767) {
+      archiveDiv.style.paddingRight = '16.9491525424%';
+    } else {
+      archiveDiv.style.paddingRight = '0';
+    }
+  }
+
+  // Apply padding on initial load
+  applyConditionalPadding();
+
+  // Reapply padding when the window is resized
+  window.onresize = applyConditionalPadding;
+</script>
