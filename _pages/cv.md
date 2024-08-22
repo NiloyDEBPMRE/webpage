@@ -40,7 +40,7 @@ redirect_from:
     </section>
 
 
-  <section id="interests" style="font-size: 16px;">
+  <section id="interests" style="font-size: 16px; line-height: 1.3">
         <h2>Interests</h2>
         <ul>
             <li>Data-Driven Science and Engineering - Physics-informed Machine Learning, Statistical Modeling</li>
@@ -55,7 +55,7 @@ redirect_from:
     </section>
 
 
-  <section id="coursework" style="font-size: 16px;">
+  <section id="coursework" style="font-size: 16px; line-height: 1.3">
         <h2>Relevant Coursework</h2>
         <h3>Advanced Graduate Level and Self-Learning Courses</h3>
         <ul>
@@ -175,7 +175,7 @@ redirect_from:
 </section>
 
 
-<section id="training-mooc" style="font-size: 16px;">
+<section id="training-mooc" style="font-size: 16px; line-height: 1.2">
   <h2>Training and MOOC Completion</h2>
   <p><em>Listed Partially</em></p>
   <ul>
@@ -193,7 +193,7 @@ redirect_from:
   </ul>
 </section>
 
-<section id="technical-skills" style="font-size: 16px;">
+<section id="technical-skills" style="font-size: 16px; line-height: 1.3">
   <h2>Technical Skills</h2>
   <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
   <ul>
@@ -206,7 +206,7 @@ redirect_from:
   </ul>
 </section>
 
-<section id="awards" style="font-size: 16px;">
+<section id="awards" style="font-size: 16px; line-height: 1.3">
   <h2>Awards and Achievements</h2>
   <ul>
     <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
