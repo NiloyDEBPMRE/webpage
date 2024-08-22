@@ -30,7 +30,7 @@ redirect_from:
           
   <li>
               <strong>Bangladesh University of Engineering and Technology (BUET)</strong><br>
-                <em>Bachelor of Science in Mechanical Engineering</em><br>
+                <em style="color: skyblue;">Bachelor of Science in Mechanical Engineering</em><br>
                 Dhaka, Bangladesh | March 2018 – May 2023 <br>
                 CGPA: <b> 3.94/4.00 </b> | Class Rank: <b> 6/188 (Top 3%)</b> <br>
                 Thesis: Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium.<br>
@@ -40,7 +40,7 @@ redirect_from:
     </section>
 
 
-  <section id="interests" style="font-size: 16px; line-height: 1;">
+  <section id="interests" style="font-size: 16px; line-height: 1.5;">
         <h2>Interests</h2>
         <ul>
             <li>Data-Driven Science and Engineering - Physics-informed Machine Learning, Statistical Modeling</li>
@@ -55,7 +55,7 @@ redirect_from:
     </section>
 
 
-  <section id="coursework" style="font-size: 16px; line-height: 1;">
+  <section id="coursework" style="font-size: 16px; line-height: 1.5;">
         <h2>Relevant Coursework</h2>
         <h3>Advanced Graduate Level and Self-Learning Courses</h3>
         <ul>
@@ -117,7 +117,7 @@ redirect_from:
         <ul>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em>Lecturer, Dept. of Petroleum and Mineral Resources Engineering</em><br>
+                <em style="color: skyblue;">Lecturer, Dept. of Petroleum and Mineral Resources Engineering</em><br>
                 Dhaka, Bangladesh | December 2023 - Present<br>
                 Academic research in Energy Resources Engineering with a major focus on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Delving into the primary energy resources in the context of global energy transition and their prospects in the developing world.<br>
                 <b> Taught Undergraduate Courses:</b> <br>
@@ -126,7 +126,7 @@ redirect_from:
             </li>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em>Research Assistant, CFDHT Research Group, Dept. of ME</em><br>
+                <em style="color: skyblue;">Research Assistant, CFDHT Research Group, Dept. of ME</em><br>
                 Dhaka, Bangladesh | June 2023 - December 2023<br>
                 * Numerical Modeling and Simulation of Thermo-Fluidic Problems<br>
                 * Computational Fluid Dynamics and Heat Transfer Research<br>
@@ -134,14 +134,14 @@ redirect_from:
             </li>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em>Co-instructor, Directorate of Continuing Education, BUET</em><br>
+                <em style="color: skyblue;">Co-instructor, Directorate of Continuing Education, BUET</em><br>
                 Dhaka, Bangladesh | December 2023 (2 Days Workshop)<br>
                 <b> Short course on COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) </b><br>
                 Resource person: Dr. Sumon Saha, Professor, Dept. of ME, BUET
             </li>
             <li>
                 <strong>Haripur 360 MW Combined Cycle Power Plant</strong><br>
-                <em>Industrial Trainee</em><br>
+                <em style="color: skyblue;">Industrial Trainee</em><br>
                 Dhaka, Bangladesh | April 2022 (3 Weeks Program)<br>
                 * First-hand experience in Power generation, Unit operations (FGC, HRSG, ST, GT, WT), Maintenance, and Control.
             </li>
@@ -154,7 +154,7 @@ redirect_from:
   <ul>
     <li>
       <strong>The Design of a Counter-Flow Shell and Helical Coil Tube Heat Exchanger (SHCTHX)</strong><br>
-      ME-310: Thermo-fluid System Design and Practice | February 2022<br>
+      <p style="color: skyblue;">ME-310: Thermo-fluid System Design and Practice | February 2022</p><br>
         * Computer-aided design of mechanical components and systems<br>
         * Thermo-hydraulic calculations for a shell and helical coil tube heat exchanger<br>
         * Performance evaluation and optimization of the design<br>
@@ -164,7 +164,7 @@ redirect_from:
 
   <li>
       <strong>Self-Stabilizing, Computer-Controlled Laser Turret</strong> <br>
-        ME-366: Electromechanical System Design and Practice | July 2021<br>
+        <p style="color: skyblue;"> ME-366: Electromechanical System Design and Practice | July 2021</p><br>
         * Computer-aided design (CAD) of mechanical components and systems<br>
         * Microcontroller programming (Arduino UNO)<br>
         * Sensor integration, feedback, data analysis, and control action for stabilization and precision aiming<br>
@@ -175,7 +175,7 @@ redirect_from:
 </section>
 
 
-<section id="training-mooc" style="font-size: 16px; line-height: 1;">
+<section id="training-mooc" style="font-size: 16px; line-height: 1.5;">
   <h2>Training and MOOC Completion</h2>
   <p><em>Listed Partially</em></p>
   <ul>
@@ -193,7 +193,7 @@ redirect_from:
   </ul>
 </section>
 
-<section id="technical-skills" style="font-size: 16px; line-height: 1.2;">
+<section id="technical-skills" style="font-size: 16px; line-height: 1.5;">
   <h2>Technical Skills</h2>
   <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
   <ul>
@@ -206,7 +206,7 @@ redirect_from:
   </ul>
 </section>
 
-<section id="awards" style="font-size: 16px; line-height: 1.2;">
+<section id="awards" style="font-size: 16px; line-height: 1.5;">
   <h2>Awards and Achievements</h2>
   <ul>
     <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
