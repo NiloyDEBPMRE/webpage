@@ -44,7 +44,7 @@ redirect_from:
         <h2>Interests</h2>
         <ul>
             <li>Data-Driven Science and Engineering - Physics-informed Machine Learning, Statistical Modeling</li>
-            <li style="font-size: 16px; line-height: 1">Applied Engineering Mathematics - Mathematical Modeling (DEQs and Solutions), Variational Methods, Phase Space/Complex Vector Spance Analysis</li>
+            <li style="font-size: 16px; line-height: 1.5">Applied Engineering Mathematics - Mathematical Modeling (DEQs and Solutions), Variational Methods, Phase Space/Complex Vector Spance Analysis</li>
             <li>Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM</li>
             <li>Non-linear Dynamics and Control</li>
             <li>Climate Change and Climate Modeling</li>
@@ -200,7 +200,7 @@ redirect_from:
     <li><strong>Programming Languages:</strong> Python, MATLAB, C</li>
     <li><strong>Documentation and Presentation:</strong> LaTeX, MS Office</li>
     <li><strong>Post Processing/Data Visualization:</strong> Tecplot 360, WebplotDigitizer, Desmos Graphing</li>
-    <li style="font-size: 16px; line-height: 1"><strong>Drawing and Design Tools:</strong> AutoCAD, SolidWorks, Proteus, Drawing.io, Canva, Adobe Illustrator, Photoshop</li>
+    <li style="font-size: 16px; line-height: 1.5"><strong>Drawing and Design Tools:</strong> AutoCAD, SolidWorks, Proteus, Drawing.io, Canva, Adobe Illustrator, Photoshop</li>
     <li><strong>FEM Modeling:</strong> COMSOL Multiphysics</li>
     <li><strong>Developer Tools:</strong> Simulink</li>
   </ul>
@@ -209,7 +209,7 @@ redirect_from:
 <section id="awards" style="font-size: 16px; line-height: 1">
   <h2>Awards and Achievements</h2>
   <ul>
-    <li style="font-size: 16px; line-height: 1"><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
+    <li style="font-size: 16px; line-height: 1.5"><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
     <li><strong>University Merit Scholarship 2018-2023:</strong> Received in all consecutive terms from Level 1 to 4, BUET</li>
     <li><strong>Dean’s List Award 2018-2023:</strong> Awarded in all consecutive terms from Level 1 to 4, Dept. of ME, BUET</li>
   </ul>
