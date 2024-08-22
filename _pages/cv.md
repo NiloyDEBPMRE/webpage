@@ -30,7 +30,7 @@ redirect_from:
           
   <li>
               <strong>Bangladesh University of Engineering and Technology (BUET)</strong><br>
-                <em style="color: blue;">Bachelor of Science in Mechanical Engineering</em><br>
+                <em style="color:lightskyblue;">Bachelor of Science in Mechanical Engineering</em><br>
                 Dhaka, Bangladesh | March 2018 – May 2023 <br>
                 CGPA: <b> 3.94/4.00 </b> | Class Rank: <b> 6/188 (Top 3%)</b> <br>
                 Thesis: Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium.<br>
@@ -40,11 +40,11 @@ redirect_from:
     </section>
 
 
-  <section id="interests" style="font-size: 16px; line-height: 1.3">
+  <section id="interests" style="font-size: 16px; line-height: 1">
         <h2>Interests</h2>
         <ul>
             <li>Data-Driven Science and Engineering - Physics-informed Machine Learning, Statistical Modeling</li>
-            <li>Applied Engineering Mathematics - Mathematical Modeling (DEQs and Solutions), Variational Methods, Phase Space/Complex Vector Spance Analysis</li>
+            <li style="font-size: 16px; line-height: 1">Applied Engineering Mathematics - Mathematical Modeling (DEQs and Solutions), Variational Methods, Phase Space/Complex Vector Spance Analysis</li>
             <li>Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM</li>
             <li>Non-linear Dynamics and Control</li>
             <li>Climate Change and Climate Modeling</li>
@@ -55,7 +55,7 @@ redirect_from:
     </section>
 
 
-  <section id="coursework" style="font-size: 16px; line-height: 1.3">
+  <section id="coursework" style="font-size: 16px; line-height: 1">
         <h2>Relevant Coursework</h2>
         <h3>Advanced Graduate Level and Self-Learning Courses</h3>
         <ul>
@@ -117,7 +117,7 @@ redirect_from:
         <ul>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em style="color: blue;">Lecturer, Dept. of Petroleum and Mineral Resources Engineering</em><br>
+                <em style="color: lightskyblue;">Lecturer, Dept. of Petroleum and Mineral Resources Engineering</em><br>
                 Dhaka, Bangladesh | December 2023 - Present<br>
                 Academic research in Energy Resources Engineering with a major focus on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Delving into the primary energy resources in the context of global energy transition and their prospects in the developing world.<br>
                 <b> Taught Undergraduate Courses:</b> <br>
@@ -126,7 +126,7 @@ redirect_from:
             </li>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em style="color: blue;">Research Assistant, CFDHT Research Group, Dept. of ME</em><br>
+                <em style="color: lightskyblue;">Research Assistant, CFDHT Research Group, Dept. of ME</em><br>
                 Dhaka, Bangladesh | June 2023 - December 2023<br>
                 * Numerical Modeling and Simulation of Thermo-Fluidic Problems<br>
                 * Computational Fluid Dynamics and Heat Transfer Research<br>
@@ -134,14 +134,14 @@ redirect_from:
             </li>
             <li>
                 <strong>Bangladesh University of Engineering and Technology</strong><br>
-                <em style="color: blue;">Co-instructor, Directorate of Continuing Education, BUET</em><br>
+                <em style="color: lightskyblue;">Co-instructor, Directorate of Continuing Education, BUET</em><br>
                 Dhaka, Bangladesh | December 2023 (2 Days Workshop)<br>
                 <b> Short course on COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) </b><br>
                 Resource person: Dr. Sumon Saha, Professor, Dept. of ME, BUET
             </li>
             <li>
                 <strong>Haripur 360 MW Combined Cycle Power Plant</strong><br>
-                <em style="color: blue;">Industrial Trainee</em><br>
+                <em style="color: lightskyblue;">Industrial Trainee</em><br>
                 Dhaka, Bangladesh | April 2022 (3 Weeks Program)<br>
                 * First-hand experience in Power generation, Unit operations (FGC, HRSG, ST, GT, WT), Maintenance, and Control.
             </li>
@@ -154,7 +154,7 @@ redirect_from:
   <ul>
     <li>
       <strong>The Design of a Counter-Flow Shell and Helical Coil Tube Heat Exchanger (SHCTHX)</strong><br>
-      <em style="color: blue;">ME-310: Thermo-fluid System Design and Practice | February 2022</em><br>
+      <em style="color: lightskyblue;">ME-310: Thermo-fluid System Design and Practice | February 2022</em><br>
         * Computer-aided design of mechanical components and systems<br>
         * Thermo-hydraulic calculations for a shell and helical coil tube heat exchanger<br>
         * Performance evaluation and optimization of the design<br>
@@ -164,7 +164,7 @@ redirect_from:
 
   <li>
       <strong>Self-Stabilizing, Computer-Controlled Laser Turret</strong> <br>
-        <em style="color: blue;"> ME-366: Electromechanical System Design and Practice | July 2021</em><br>
+        <em style="color: lightskyblue;"> ME-366: Electromechanical System Design and Practice | July 2021</em><br>
         * Computer-aided design (CAD) of mechanical components and systems<br>
         * Microcontroller programming (Arduino UNO)<br>
         * Sensor integration, feedback, data analysis, and control action for stabilization and precision aiming<br>
@@ -175,7 +175,7 @@ redirect_from:
 </section>
 
 
-<section id="training-mooc" style="font-size: 16px; line-height: 1.2">
+<section id="training-mooc" style="font-size: 16px; line-height: 1">
   <h2>Training and MOOC Completion</h2>
   <p><em>Listed Partially</em></p>
   <ul>
@@ -193,23 +193,23 @@ redirect_from:
   </ul>
 </section>
 
-<section id="technical-skills" style="font-size: 16px; line-height: 1.3">
+<section id="technical-skills" style="font-size: 16px; line-height: 1">
   <h2>Technical Skills</h2>
   <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
   <ul>
     <li><strong>Programming Languages:</strong> Python, MATLAB, C</li>
     <li><strong>Documentation and Presentation:</strong> LaTeX, MS Office</li>
     <li><strong>Post Processing/Data Visualization:</strong> Tecplot 360, WebplotDigitizer, Desmos Graphing</li>
-    <li><strong>Drawing and Design Tools:</strong> AutoCAD, SolidWorks, Proteus, Drawing.io, Canva, Adobe Illustrator, Photoshop</li>
+    <li style="font-size: 16px; line-height: 1"><strong>Drawing and Design Tools:</strong> AutoCAD, SolidWorks, Proteus, Drawing.io, Canva, Adobe Illustrator, Photoshop</li>
     <li><strong>FEM Modeling:</strong> COMSOL Multiphysics</li>
     <li><strong>Developer Tools:</strong> Simulink</li>
   </ul>
 </section>
 
-<section id="awards" style="font-size: 16px; line-height: 1.3">
+<section id="awards" style="font-size: 16px; line-height: 1">
   <h2>Awards and Achievements</h2>
   <ul>
-    <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
+    <li style="font-size: 16px; line-height: 1"><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper presented at the 14th Int. Conf. on Mech. Engg., Organized by Dept. of ME, BUET</li>
     <li><strong>University Merit Scholarship 2018-2023:</strong> Received in all consecutive terms from Level 1 to 4, BUET</li>
     <li><strong>Dean’s List Award 2018-2023:</strong> Awarded in all consecutive terms from Level 1 to 4, Dept. of ME, BUET</li>
   </ul>
