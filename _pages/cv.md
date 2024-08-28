@@ -16,7 +16,7 @@ redirect_from:
   <p><strong>Name:</strong> Niloy Deb<br>
     <strong>Label:</strong> Mechanical Engineering Graduate & Lecturer, Dept. of PMRE, BUET<br>
   <strong>Url:</strong> <a href="https://niloydebpmre.github.io/webpage" target="_blank">niloydebpmre.github.io/webpage</a><br>
-  <strong>Summary:</strong> An aspiring individual interested in data-driven science, physics- informed machine learning, computational methods, and applied mathematics. Focused on dynamical systems and transport phenomena at both micro and macro scales.</p>
+  <strong>Summary:</strong> An aspiring individual interested in data-driven science, physics- informed machine learning, computational methods, and applied mathematics. Focused on dynamical systems, turbulence, and transport phenomena at both micro and macro scales.</p>
 
 </section>
 
@@ -46,6 +46,7 @@ redirect_from:
             <li>Data-Driven Science and Engineering - Physics-informed Machine Learning, Statistical Modeling</li>
             <li style="font-size: 16px; line-height: 1.5">Applied Engineering Mathematics - Mathematical Modeling (DEQs and Solutions), Variational Methods, Phase Space/Complex Vector Spance Analysis</li>
             <li>Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM</li>
+            <li>Turbulence</li>
             <li>Non-linear Dynamics and Control</li>
             <li>Climate Change and Climate Modeling</li>
             <li>Chaotic Convection and Transport through Porous Medium</li>
