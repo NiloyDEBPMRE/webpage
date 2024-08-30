@@ -72,3 +72,34 @@ redirect_from:
   <i class="fa fa-envelope" style="margin-right: 8px;"></i> Email: niloydeb@pmre.buet.ac.bd
 </p>
 
+ <script>
+        function updateTimeAndDate() {
+            const now = new Date();
+
+            // Time formatting
+            let hours = now.getHours();
+            let minutes = now.getMinutes();
+            let seconds = now.getSeconds();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+            document.getElementById('clock').textContent = `Current Time: ${timeString}`;
+
+            // Date formatting
+            const year = now.getFullYear();
+            const month = now.toLocaleString('default', { month: 'long' });
+            const date = now.getDate();
+            const day = now.toLocaleString('default', { weekday: 'long' });
+
+            const dateString = `${day}, ${month} ${date}, ${year}`;
+            document.getElementById('calendar').textContent = `Today's Date: ${dateString}`;
+        }
+
+        // Update every second
+        setInterval(updateTimeAndDate, 1000);
+        updateTimeAndDate(); // Initial call
+    </script>
