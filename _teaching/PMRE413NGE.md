@@ -1,5 +1,5 @@
 ---
-title: "PMRE 411: Natural Gas Engineering"
+title: "PMRE 413: Natural Gas Engineering"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/PMRE413NGE

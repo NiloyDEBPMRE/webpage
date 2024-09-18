@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p style="text-align: justify; font-size: 16px"> (Edit... My personal Website is under construction; ignore the mess!) I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET, my alma mater.</p>
+<p style="text-align: justify; font-size: 16px"> (Edit... My personal Website is under construction; ignore the mess!) I am Niloy Deb. I completed my Bachelor of Science in Mechanical Engineering from Bangladesh University of Engineering and Technology (BUET), a renowned technical institution in Bangladesh. I have experience working as a research assistant in the 'Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)' under the supervision of Dr. Sumon Saha, Professor, Department of Mechanical Engineering, BUET. Currently, I am serving as a lecturer in the Department of Petroleum and Mineral Resources Engineering (PMRE) at BUET</p>
 <p style="text-align: justify; font-size: 16px">I have a keen interest in Thermodynamics, Fluid Mechanics, and Heat Transfer, which drives me to explore Energy Science further. I am particularly fascinated by chaotic dynamical systems, turbulence, and the physics of convection. Feedback mechanisms can reshape dynamical system behavior, with control being key, which are of particular interest of mine.</p>
 <p style="text-align: justify; font-size: 16px">The recent surge of unprecedented data from improved measurement, experimentation, and computation highlights the necessity of Data Analytics. Statistical techniques, supported by advancements in Artificial Intelligence, enable better optimization and system analysis in a cost-effective manner. I have the grasp of statistics, Machine Learning, and Deep Learning, which allowing me to advance further in my career as an academician and a researcher.</p>
 <p style="text-align: justify; font-size: 16px"></p>
@@ -72,34 +72,4 @@ redirect_from:
   <i class="fa fa-envelope" style="margin-right: 8px;"></i> Email: niloydeb@pmre.buet.ac.bd
 </p>
 
- <script>
-        function updateTimeAndDate() {
-            const now = new Date();
-
-            // Time formatting
-            let hours = now.getHours();
-            let minutes = now.getMinutes();
-            let seconds = now.getSeconds();
-            let ampm = hours >= 12 ? 'PM' : 'AM';
-            hours = hours % 12;
-            hours = hours ? hours : 12; // the hour '0' should be '12'
-            minutes = minutes < 10 ? '0' + minutes : minutes;
-            seconds = seconds < 10 ? '0' + seconds : seconds;
-
-            const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
-            document.getElementById('clock').textContent = `Current Time: ${timeString}`;
-
-            // Date formatting
-            const year = now.getFullYear();
-            const month = now.toLocaleString('default', { month: 'long' });
-            const date = now.getDate();
-            const day = now.toLocaleString('default', { weekday: 'long' });
-
-            const dateString = `${day}, ${month} ${date}, ${year}`;
-            document.getElementById('calendar').textContent = `Today's Date: ${dateString}`;
-        }
-
-        // Update every second
-        setInterval(updateTimeAndDate, 1000);
-        updateTimeAndDate(); // Initial call
-    </script>
+ 
