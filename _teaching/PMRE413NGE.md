@@ -40,3 +40,5 @@ Overview of natural gas properties. Qualitative phase behavior of hydrocarbons. 
         <li ><strong>Mokhatab, S., Poe, W. A., & Speight, J. G.</strong> (2018). Handbook of natural gas transmission and processing: principles and practices. Gulf Professional Publishing.</li>
         <li><strong>Kidnay, A. J., Parrish, W. R., & McCartney, D. G.</strong> (2019). Fundamentals of natural gas processing. CRC Press.</li>
     </ol>
+
+
