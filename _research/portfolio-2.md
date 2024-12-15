@@ -1,6 +1,6 @@
 ---
-title: "research item number 2"
-excerpt: "Short description of research item number 2 <br/><img src='/webpage/images/500x300.png'>"
+title: "System Dynamics and Control - A Computational Fluid Dynamics Approach"
+excerpt: "Robustness of closed loop controllers for chaotic convection - a coupled non-linear system involving heat transfer and fluid flow. <br/><img src='/webpage/images/Control_in_convection.mp4'>"
 collection: Research
 ---
 
