@@ -1,6 +1,6 @@
 ---
 title: "System Dynamics and Control - A Computational Fluid Dynamics Approach"
-excerpt: "Robustness of closed loop controllers for chaotic convection - a coupled non-linear system involving heat transfer and fluid flow. <br/><img src='/webpage/images/Control_convection.gif'>"
+excerpt: "Robustness of closed loop controllers for chaotic convection - a coupled non-linear system involving heat transfer and fluid flow. <br/><img src='/webpage/images/Control_convection2.gif'>"
 collection: Research
 ---
 
