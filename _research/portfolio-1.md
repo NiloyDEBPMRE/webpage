@@ -1,6 +1,6 @@
 ---
-title: "research item number 1"
-excerpt: "Short description of research item number 1<br/><img src='/webpage/images/500x300.png'>"
+title: "Transport Through Porous Media"
+excerpt: "Computational Modeling of Multiphase Flow Through Porous Media <br/><img src='/webpage/images/FTPM.gif'>"
 collection: Research
 ---
 
