@@ -25,8 +25,8 @@ author:
   name             : "Niloy Deb"
   pronouns         : # example: "she/her"  
   bio              : " Mechanical Engineering Graduate - Dept. of ME, BUET| Lecturer - Dept. of PMRE, BUET | Topics of Interest - Data Driven Science and Engineering, Computational Modeling of Nonlinear Phenomena, Climate Dynamics, to name a few"
-  location         : "Dhaka - 1000, Bangladesh"
-  employer         : "Bangladesh Uni. of Engg. & Tech."
+  location         : #"Dhaka - 1000, Bangladesh"
+  employer         : #"Bangladesh Uni. of Engg. & Tech."
   uri              : "https://niloydebpmre.github.io/webpage" # URL
   email            : "niloydeb@pmre.buet.ac.bd" 
 
