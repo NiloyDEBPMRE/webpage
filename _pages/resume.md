@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -20,8 +20,8 @@ redirect_from:
 
 </section>
 
-<section id="download-cv">
-  <a href="link-to-cv.pdf" class="btn btn-primary">Download the PDF version of <strong>MY CV</strong></a>
+<section id="download-resume">
+  <a href="link-to-resume.pdf" class="btn btn-primary">Download the PDF version of <strong>MY resume</strong></a>
 </section>
 
 <section id="education">
@@ -109,7 +109,7 @@ redirect_from:
 
 <h2> Publications</h2>
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-resume.html %}
   {% endfor %}</ul>
 
 
