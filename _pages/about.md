@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "<h2> --- </h2>"
+title: "<h2> </h2>"
 author_profile: true
 redirect_from: 
   - /about/
