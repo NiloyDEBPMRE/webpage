@@ -19,7 +19,7 @@ redirect_from:
 </p>
 
 <figure style="text-align: center; margin: 20px 0;">
-    <img src="images/myinterests.eps" alt="Research Interests Venn Diagram" style="max-width: 90%; height: auto;">
+    <img src="images/myinterests.png" alt="Research Interests Venn Diagram" style="max-width: 90%; height: auto;">
     <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">
         Overview of my research interests, methods, and application domains.
     </figcaption>
