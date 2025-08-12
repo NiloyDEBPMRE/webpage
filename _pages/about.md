@@ -7,39 +7,16 @@ redirect_from:
   - /about.html
 ---
 
+
+
 <p style="text-align: justify; font-size: 16px">
     <em>(Website under construction — please ignore the mess!)</em>  
-    <strong>Hello, and welcome!</strong> I am <strong>Niloy Deb</strong>.  
-    I earned my <strong>Bachelor of Science in Mechanical Engineering</strong> from the <strong>Bangladesh University of Engineering and Technology (BUET)</strong>, Bangladesh.  
-    I have experience working as a research assistant in the 
-    <em>Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)</em> under the supervision of 
-    <strong>Dr. Sumon Saha</strong> (Professor, Department of Mechanical Engineering, BUET).  
-    Currently, I serve as a <strong>Lecturer</strong> in the Department of Petroleum and Mineral Resources Engineering, BUET.
+    <strong>Hello, and welcome!</strong> I am <strong>Niloy Deb</strong>. I earned my <strong>Bachelor of Science in Mechanical Engineering</strong> from the <strong>Bangladesh University of Engineering and Technology (BUET)</strong>, Bangladesh. I have experience working as a research assistant in the <em>Computational Fluid Dynamics and Heat Transfer Research Group (CFDHT)</em> under the supervision of <strong>Dr. Sumon Saha</strong> (Professor, Department of Mechanical Engineering, BUET). Currently, I serve as a <strong>Lecturer</strong> in the Department of Petroleum and Mineral Resources Engineering, BUET.
 </p>
 
 <p style="text-align: justify; font-size: 16px">
-    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>.  
-    Applications of my research include, but are not limited to:  
-    <ul style="margin-top: 0; margin-bottom: 0;">
-        <li><em>Control theory for fluid systems</em></li>
-        <li><em>Multiphase flow</em> in porous and subsurface media</li>
-        <li>Fluid behavior in <em>multiphysics environments</em></li>
-    </ul>
+    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>, with applications including <em>control theory for fluid systems</em>, <em>multiphase flow</em> in porous and subsurface media, and fluid behavior in <em>multiphysics environments</em>. My current focus is on integrating <strong>high-fidelity Computational Fluid Dynamics (CFD)</strong> with <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to model, predict, and optimize <strong>complex nonlinear phenomena</strong>. This involves combining <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong> to enhance predictive accuracy, computational efficiency, and fundamental understanding of engineering systems.
 </p>
-
-<p style="text-align: justify; font-size: 16px">
-    My current focus is on integrating <strong>high-fidelity Computational Fluid Dynamics (CFD)</strong> with 
-    <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to model, predict, and optimize 
-    <strong>complex nonlinear phenomena</strong>.  
-    This involves combining <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and 
-    <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong> to enhance:
-</p>
-
-<ul style="margin-top: 0; margin-bottom: 0; font-size: 16px;">
-    <li>Predictive accuracy</li>
-    <li>Computational efficiency</li>
-    <li>Fundamental understanding of engineering systems</li>
-</ul>
 
 
 <h2> Research Interest </h2>
