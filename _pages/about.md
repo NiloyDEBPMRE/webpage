@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "<h2> </h2>"
+title: "<h2>  </h2>"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,7 +15,7 @@ redirect_from:
 </p>
 
 <p style="text-align: justify; font-size: 16px">
-    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>, with applications including <em>control theory for fluid systems</em>, <em>multiphase flow</em> in porous and subsurface media, and fluid behavior in <em>multiphysics environments</em>. My current focus is on integrating <strong>high-fidelity Computational Fluid Dynamics (CFD)</strong> with <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to model, predict, and optimize <strong>complex nonlinear phenomena</strong>. This involves combining <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong> to enhance predictive accuracy, computational efficiency, and fundamental understanding of engineering systems.
+    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>, with applications including <em>fluid system control</em>, <em>fluid flow through porous and subsurface media</em>, and <em>fluid behavior in multiphysics environments</em>. My current focus is on integrating <strong>numerical analysis</strong> or <strong>high-fidelity computational fluid dynamics (CFD)</strong> with <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to <em>improve predictive accuracy</em>, <em>computational efficiency</em>, and <em>the fundamental understanding of engineering systems</em>. This approach is also used to <em>model</em>, <em>predict</em>, and <em>optimize</em> <strong>complex nonlinear phenomena</strong> by employing <strong>adjoint methods</strong>, <strong>Bayesian optimization</strong>, and <strong>gradient-based </strong>or <strong>metaheuristics-based algorithms</strong>. It involves combining knowledge from <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong>.
 </p>
 
 
