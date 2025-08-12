@@ -15,41 +15,17 @@ redirect_from:
 </p>
 
 <p style="text-align: justify; font-size: 16px">
-    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>, with applications including <em>fluid system control</em>, <em>fluid flow through porous and subsurface media</em>, and <em>fluid behavior in multiphysics environments</em>. My current focus is on integrating <strong>numerical analysis</strong> or <strong>high-fidelity computational fluid dynamics (CFD)</strong> with <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to <em>improve predictive accuracy</em>, <em>computational efficiency</em>, and <em>the fundamental understanding of engineering systems</em>. This approach is also used to <em>model</em>, <em>predict</em>, and <em>optimize</em> <strong>complex nonlinear phenomena</strong> by employing <strong>adjoint methods</strong>, <strong>Bayesian optimization</strong>, and <strong>gradient-based </strong>or <strong>metaheuristics-based algorithms</strong>. Above all, it involves combining knowledge from <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong>.
+    I am interested in <strong>chaotic dynamical systems</strong>, <strong>convection physics</strong>, and <strong>turbulence</strong>, with applications including <em>fluid system control</em>, <em>fluid flow through porous and subsurface media</em>, and <em>fluid behavior in multiphysics environments</em>. My current focus is on integrating <strong>numerical analysis</strong> or <strong>high-fidelity computational fluid dynamics (CFD)</strong> with <strong>data-driven</strong> and <strong>differentiable physics</strong> methods to <em>improve predictive accuracy</em>, <em>computational efficiency</em>, and <em>the understanding of engineering systems</em>. This approach requires to <em>model</em>, <em>predict</em>, and <em>optimize</em> <strong>complex nonlinear phenomena</strong> by <strong>adjoint method</strong>, <strong>Bayesian optimization</strong>, and <strong>gradient-based </strong>or <strong>metaheuristics-based algorithms</strong>. Above all, it involves combining knowledge from <strong>statistical inference</strong>, <strong>machine learning (ML)</strong>, and <strong>deep learning (DL)</strong> with <strong>physics-based modeling</strong>.
 </p>
 
+<figure style="text-align: center; margin: 20px 0;">
+    <img src="images/myinterests.eps" alt="Research Interests Venn Diagram" style="max-width: 90%; height: auto;">
+    <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">
+        Overview of my research interests, methods, and application domains.
+    </figcaption>
+</figure>
 
-<h2> Research Interest </h2>
 
-<ul style="list-style-type: none; padding: 0; font-size: 16px">
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Data-Driven Science and Engineering - Physics Informed Machine Learning, Statistical Modeling
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Computational Fluid Dynamics and Heat Transfer - FDM, FEM, FVM, LB, SEM
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Non-linear Dynamics and Control
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Climate Change and Climate Modeling
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Chaotic Convection and Climate Dynamics
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Turbulence
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Transport through Porous Medium
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Complex and Multiphase Fluid Flow and Heat Transfer
-    </li>
-    <li style="margin-bottom: 10px;">
-      <i class="fa fa-bookmark" style="margin-right: 8px;"></i> Energy Science and Engineering
-    </li>
-  </ul>
 
   <h2> Updates </h2>
 
@@ -66,17 +42,5 @@ redirect_from:
 </ul>
 
 
-<h2 >Contact</h2>
-
-<p style="font-size: 16px;">
-  <b>Niloy Deb</b><br>
-  Lecturer<br>
-  Department of Petroleum and Mineral Resources Engineering<br>
-  Bangladesh University of Engineering and Technology<br>
-  Dhaka - 1000, Bangladesh<br>
-  Old Academic Building, Room No: 202 (B)<br>
-  <i class="fa fa-phone" style="margin-right: 8px;"></i> Mobile: +88(0)1768317141<br>
-  <i class="fa fa-envelope" style="margin-right: 8px;"></i> Email: niloydeb@pmre.buet.ac.bd
-</p>
 
  
