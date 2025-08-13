@@ -26,7 +26,7 @@ redirect_from:
 
   <strong> News & Updates </strong>
 
-<ul style="list-style-type: none; padding: 0; font-size: 16px;">
+<ul style="list-style-type: none; padding: 0; font-size: 14px;">
   <li style="margin-bottom: 10px;">
     <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2025-08-09:</span> Appeared on the TOEFL iBT exam.
   </li>
