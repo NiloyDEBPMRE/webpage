@@ -24,17 +24,11 @@ redirect_from:
 
 
 
-  <h2> Updates </h2>
+  <strong> News & Updates </strong>
 
 <ul style="list-style-type: none; padding: 0; font-size: 16px;">
   <li style="margin-bottom: 10px;">
-    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-01:</span> Project Initiated bla bla ...
-  </li>
-  <li style="margin-bottom: 10px;">
-    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-05:</span> Initial Research Completed bla bla ...
-  </li>
-  <li style="margin-bottom: 10px;">
-    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2024-08-10:</span> Draft Report Submitted bla bla ..
+    <i class="fa fa-calendar-day" style="margin-right: 8px;"></i> <span style="font-weight: bold;">2025-08-09:</span> Appeared on the TOEFL iBT exam.
   </li>
 </ul>
 
