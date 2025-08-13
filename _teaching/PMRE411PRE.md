@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/PMRE411PRE
 venue: "offered by Dept. of PMRE, BUET to Dept. of ChE, BUET"
-date: 0000-00-00
+date: 2025-01-01
 location: "Dhaka-1000, Bangladesh"
 ---
 
