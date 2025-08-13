@@ -2,7 +2,7 @@
 title: "PMRE 411: Reservoir Engineering"
 collection: teaching
 type: "Undergraduate Course"
-permalink: /teaching/PMRE413PRE
+permalink: /teaching/PMRE411PRE
 venue: "offered by Dept. of PMRE, BUET to Dept. of ChE, BUET"
 date: 0000-00-00
 location: "Dhaka-1000, Bangladesh"
