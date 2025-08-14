@@ -24,11 +24,5 @@
         <li><i class="fas fa-quote-left" aria-hidden="true"></i> Citation: {{ post.citation | markdownify | remove: "<p>" | remove: "</p>" }}</li>
       {% endif %}
     </ul>
-
-    {% if post.content %}
-      <div class="archive__item-teaser">
-        {{ post.excerpt }}
-      </div>
-    {% endif %}
   </article>
 </div>
