@@ -3,7 +3,7 @@ title: "Thermal management inside a discretely heated rectangular
 cuboid using P, PI and PID controllers"
 collection: publications
 category: manuscripts
-permalink: /publication/2023_CSTE_Deb et al
+permalink: /publications/2023_CSTE_Deb et al
 excerpt: "<b>Computational Modeling of Nonlinear System </b>| <b>Thermal Management in a Coupled Thermofluidic System</b>| <b>P, PI, and PID Controllers </b>| <b>Controller Feedback and System Response </b>| <b>Flow and Thermal Field Visualization</b>"
 date: 2023-10-09
 venue: '<b> Case Studies in Thermal Engineering </b>'

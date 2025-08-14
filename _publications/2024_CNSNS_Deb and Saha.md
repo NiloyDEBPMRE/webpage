@@ -2,7 +2,7 @@
 title: "Comment on “Numerical simulation of magnetohydrodynamic buoyancy-induced flow in a non-isothermally heated square enclosure” [Communications in nonlinear science and numerical simulation, 14(2009) 770-778] "
 collection: publications
 category: manuscripts
-permalink: /publication/2024_CNSNS_Deb and Saha
+permalink: /publications/2024_CNSNS_Deb and Saha
 excerpt: "<b>Letter to Editor</b> | <b>Correction of Formulation and Results</b>"
 date: 2023-12-06
 venue: '<b> Communications in Nonlinear Science and Numerical Simulation </b>'

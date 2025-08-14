@@ -3,7 +3,7 @@ title: "Natural convection and entropy generation inside a square chamber
 divided by a corrugated porous partition"
 collection: publications
 category: manuscripts
-permalink: /publication/2023_RIE_Sakib et al
+permalink: /publications/2023_RIE_Sakib et al
 excerpt: "<b>Finite Elememt Modeling</b>| <b>Natural Convection Coupled with Porous Medium Flow</b>| <b>Entropy Generation</b>"
 date: 2023-03-27
 venue: '<b> Results in Engineering </b>'

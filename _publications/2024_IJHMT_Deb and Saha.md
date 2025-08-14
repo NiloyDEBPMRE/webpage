@@ -2,7 +2,7 @@
 title: "Comment on “Steady natural convection flows in a square cavity with linearly heated side wall(s)” [International Journal of Heat and Mass Transfer, 50 (2007) 766–775]"
 collection: publications
 category: manuscripts
-permalink: /publication/2024_IJHMT_Deb and Saha
+permalink: /publications/2024_IJHMT_Deb and Saha
 excerpt: "C<b>omment on Published Article</b> | <b>Nusselt Number Calculation- Generalized Expression for Different Thermal Boundary Conditions</b>| <b>Formulation from the First Principle</b>"
 date: 2023-11-01
 venue: '<b> International Journal of Heat and Mass Transfer </b>'

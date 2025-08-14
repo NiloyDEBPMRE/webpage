@@ -3,7 +3,7 @@ title: "Role of internal heat generation, magnetism and Joule heating on entropy
 generation and mixed convective flow in a square domain"
 collection: publications
 category: manuscripts
-permalink: /publication/2024_ANE_Deb and Saha
+permalink: /publications/2024_ANE_Deb and Saha
 excerpt: "<b>Mixed Convection</b>| <b>Internal Heat Generation</b>| <b>Magnetism</b>| <b>Joule Heating</b>"
 date: 2023-12-16
 venue: '<b> Annals of Nuclear Energy </b>'

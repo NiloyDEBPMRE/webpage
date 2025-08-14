@@ -3,9 +3,6 @@
     <h3 class="archive__item-title" itemprop="headline">
       <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
     </h3>
-
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-
     <ul class="archive__item-details">
       {% if post.venue %}
         <li><i class="fas fa-book-open" aria-hidden="true"></i> Journal: {{ post.venue | markdownify | remove: "<p>" | remove: "</p>" }}</li>

@@ -2,7 +2,7 @@
 title: "Entropy generation on magnetohydrodynamic conjugate free convection with Joule heating of heat-generating liquid and solid element inside a chamber "
 collection: publications
 category: manuscripts
-permalink: /publication/2024_CSTE_Sadia et al
+permalink: /publications/2024_CSTE_Sadia et al
 excerpt: "<b>Conjugate Natural Convection</b>| <b>Heat-generating Liquids and Solid</b>"
 date: 2023-11-01
 venue: '<b> Case Studies in Thermal Engineering </b>'

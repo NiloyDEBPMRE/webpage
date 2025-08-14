@@ -2,7 +2,7 @@
 title: "Evaluation of Heat Transfer and Melting Process of a PCM inside a Trapezoidal Shaped Enclosure"
 collection: publications
 category: conferences
-permalink: /publication/2023_ACFM_Deb et al
+permalink: /publications/2023_ACFM_Deb et al
 excerpt: '<b>Phase Change Material</b>| <b> Moving Interface/Boundary </b>| <b> Melting and Convection</b>'
 date: 2023-08-17
 venue: ' <b> 17 th Asian Congress of Fluid Mechanics (ACFM), Beijing, China </b>'

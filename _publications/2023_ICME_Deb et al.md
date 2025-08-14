@@ -2,7 +2,7 @@
 title: "MHD Free Convective Flow along with Internal Heat Generation and Joule Heating in a Two Layer Discretely Heated Chamber Partially Filled with Porous Medium"
 collection: publications
 category: conferences
-permalink: /publication/2023_ICME_Deb et al
+permalink: /publications/2023_ICME_Deb et al
 excerpt: ' <b> Magnetohydrodynamics</b>| <b>Free Convection </b>| <b>Internal Heat Generation </b>| <b>Joule Heating </b>| <b>Porous Medium</b>'
 date: 2024-02-17
 venue: '<b> 14 th International Conference on Mechanical Engineering (ICME), Dhaka, BUET </b>'
