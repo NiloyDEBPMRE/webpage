@@ -1,11 +1,7 @@
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-      {% endif %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
     </h3>
     
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>{% endif %}
