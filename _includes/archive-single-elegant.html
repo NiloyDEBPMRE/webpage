@@ -12,22 +12,22 @@
 
     <ul class="archive__item-details">
       {% if post.venue %}
-        <li><i class="fas fa-book-open" aria-hidden="true"></i> **Venue:** {{ post.venue | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+        <li><i class="fas fa-book-open" aria-hidden="true"></i> Journal: {{ post.venue | markdownify | remove: "<p>" | remove: "</p>" }}</li>
       {% endif %}
       {% if post.date %}
-        <li><i class="far fa-calendar-alt" aria-hidden="true"></i> **Date:** {{ post.date | date: "%B %d, %Y" }}</li>
+        <li><i class="far fa-calendar-alt" aria-hidden="true"></i> Publication Date: {{ post.date | date: "%B %d, %Y" }}</li>
       {% endif %}
       {% if post.paperurl %}
-        <li><i class="fas fa-file-pdf" aria-hidden="true"></i> **<a href="{{ post.paperurl }}" target="_blank">PDF Link</a>**</li>
+        <li><i class="fas fa-file-pdf" aria-hidden="true"></i> <a href="{{ post.paperurl }}" target="_blank">PDF Link</a> </li>
       {% endif %}
       {% if post.citation %}
-        <li><i class="fas fa-quote-left" aria-hidden="true"></i> **Citation:** {{ post.citation | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+        <li><i class="fas fa-quote-left" aria-hidden="true"></i> Citation: {{ post.citation | markdownify | remove: "<p>" | remove: "</p>" }}</li>
       {% endif %}
     </ul>
 
     {% if post.content %}
       <div class="archive__item-teaser">
-        {{ post.content }}
+        {{ post.excerpt }}
       </div>
     {% endif %}
   </article>
