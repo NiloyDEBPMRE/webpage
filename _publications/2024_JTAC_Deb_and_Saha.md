@@ -2,7 +2,7 @@
 title: "Convective fow optimization inside a lid‑driven chamber with a rotating porous cylinder using Darcy–Brinkman–Forchheimer model"
 collection: publications
 category: manuscripts
-permalink: /publication/2024_JTAC_Deb_and_Saha
+permalink: /publications/2024_JTAC_Deb and Saha
 excerpt: "<b>Mixed Convection</b>| <b>Porous Media Flow - Darcy–Brinkman–Forchheimer model</b>| <b>Rotating Porous Medium</b>"
 date: 2024-06-24
 venue: '<b> Journal of Thermal Analysis and Calorimetry </b>'
