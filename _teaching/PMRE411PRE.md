@@ -31,8 +31,7 @@ location: "Dhaka-1000, Bangladesh"
   <li><strong>Dake, L. P.</strong> (1978). <em>Fundamentals of Reservoir Engineering</em>. Elsevier Scientific Publishing Company.</li>
   <li><strong>Craft, B. C., Hawkins, M. F., & Terry, R. E.</strong> (1991). <em>Applied Petroleum Reservoir Engineering</em> (2nd ed.). Prentice Hall.</li>
   <li><strong>Ahmed, T.</strong> (2018). <em>Reservoir Engineering Handbook</em> (5th ed.). Gulf Professional Publishing (Elsevier).</li>
-  <li><strong>Blunt, M. J.</strong> (2017). <em>Multiphase Flow in Permeable Media: A Pore-Scale Perspective</em>. Cambridge University Press.</li>
-</ol>
+  <li><strong>Blunt, M. J.</strong> (2017). <em>Reservoir Engineering</em>.The Imperial College lectures in petroleum engineering ; volume 2.
 
 
 
