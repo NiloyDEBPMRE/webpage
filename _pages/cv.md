@@ -133,16 +133,16 @@ author_profile: true
   <div class="header">
     <div style="width:68%;">
       <p class="name">Niloy Deb</p>
-      <p class="title">Mechanical Engineering Graduate & Lecturer, Dept. of Petroleum and Mineral Resources Engineering (PMRE), BUET</p>
+      <p class="title">Mechanical Engineering Graduate</p>
 
       <p class="entry-desc" style="margin-top:8px;">
-        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven science, physics-informed machine learning, computational methods, and applied mathematics. Research interests include dynamical systems, turbulence, transport phenomena, and energy resources.
+        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven science, differentiable physics-informed machine learning, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
 
     <div class="contact" style="width:32%;">
       <div style="font-weight:600;margin-bottom:6px;">Contact</div>
-      <div>EMAIL_HERE · PHONE_HERE</div>
+      <div>niloydeb@pmre.buet.ac.bd</div>
       <div style="margin-top:6px;">
         <a href="LINKEDIN_URL" target="_blank">LinkedIn</a> · <a href="#" target="_blank">ORCID</a>
       </div>
@@ -162,7 +162,7 @@ author_profile: true
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="path-to-buet-logo.png" alt="BUET logo" class="institution-logo">
+          <img src="images/buet.jpg" alt="BUET logo" class="institution-logo">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
             <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
@@ -184,7 +184,7 @@ author_profile: true
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="institution">
-          <img src="path-to-dhaka-college-logo.png" alt="Dhaka College logo" class="institution-logo">
+          <img src="images/dhakacollege.jpg" alt="Dhaka College logo" class="institution-logo">
           <div>
             <div class="inst-name">Dhaka College, Dhaka</div>
             <div class="inst-sub">Higher Secondary Certificate (Science)</div>
@@ -193,6 +193,7 @@ author_profile: true
       </div>
 
       <div class="entry-right">
+      June 2015 - August 2017
         <span class="location">Dhaka, Bangladesh</span>
       </div>
     </div>
@@ -206,15 +207,15 @@ author_profile: true
     </h2>
 
     <div class="chips" role="list">
-      <span class="chip">Data-Driven Science</span>
-      <span class="chip">Physics-informed ML</span>
-      <span class="chip">Mathematical Modeling</span>
+      <span class="chip">Data-Driven Sciences</span>
+      <span class="chip">Differentiable Physics</span>
+      <span class="chip">Mathematical and Computational Modeling</span>
       <span class="chip">CFD & Heat Transfer</span>
       <span class="chip">Turbulence</span>
       <span class="chip">Non-linear Dynamics</span>
-      <span class="chip">Climate Modeling</span>
-      <span class="chip">Porous Media</span>
-      <span class="chip">Energy Science</span>
+      <span class="chip">Fluid under Multiphysics Environment </span>
+      <span class="chip">Porous Media Flow</span>
+      <span class="chip">Physics of Convection</span>
     </div>
   </section>
 
