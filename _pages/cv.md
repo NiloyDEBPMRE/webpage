@@ -7,258 +7,428 @@ author_profile: true
 
 {% include base_path %}
 
+<!--
+  Final polished CV HTML
+  - Replace logo paths and contact placeholders below
+  - Body font <= 14px
+-->
+
 <style>
-  .resume-section {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  :root{
+    --body-font-size:14px;
+    --heading-font-size:16px;
+    --muted:#6b6b6b;
+    --accent:#0b66c3;
+    --chip-bg:#f3f6fb;
+    --line:#e6e6e6;
+    --max-width:920px;
   }
-  .resume-section h2 {
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 3px;
-    margin-bottom: 10px;
+
+  .cv {
+    max-width: var(--max-width);
+    margin: 18px auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color:#111;
+    font-size:var(--body-font-size);
+    line-height:1.45;
+    padding:18px;
   }
-  .resume-section h2 svg {
-    margin-right: 8px;
+
+  /* Header */
+  .header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:6px;
   }
-  .institution-logo {
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 6px;
+  .name {
+    font-size:18px;
+    font-weight:700;
+    margin:0;
   }
-  .keyword-list {
-    font-size: 14px;
-    line-height: 1.4;
+  .title {
+    font-size:13px;
+    color:var(--muted);
+    margin-top:4px;
+    font-style:italic;
   }
-  .keyword-list span {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 4px;
+  .contact {
+    text-align:right;
+    font-size:13px;
+    color:var(--muted);
   }
-  ul {
-    margin: 0;
-    padding-left: 20px;
+  .contact a { color:var(--accent); text-decoration:none; }
+
+  /* Section */
+  .section {
+    margin-top:14px;
+    padding-bottom:12px;
+    border-bottom:1px solid var(--line);
   }
-  a.btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 6px 12px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 14px;
+  .section h2 {
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:var(--heading-font-size);
+    margin:0 0 10px 0;
   }
-  a.btn:hover {
-    background-color: #0056b3;
+  .section h2 svg { width:18px; height:18px; opacity:.95; }
+
+  /* Left / right entry */
+  .entry {
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    align-items:flex-start;
+    margin:8px 0;
   }
+  .entry-left { width:64%; }
+  .entry-right { width:34%; text-align:right; color:var(--muted); font-size:13px; }
+  .entry-right .location { display:block; margin-top:6px; font-style:italic; font-size:12.5px; }
+
+  .institution {
+    display:flex;
+    gap:8px;
+    align-items:center;
+  }
+  .institution-logo { height:18px; width:auto; display:inline-block; vertical-align:middle; }
+  .institution .inst-name { font-weight:700; font-size:14px; }
+  .institution .inst-sub { color:var(--accent); font-style:italic; font-size:13.2px; margin-top:2px; }
+
+  .entry-desc { margin-top:6px; font-size:13.4px; color:#111; }
+
+  /* chips */
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+  .chip { background:var(--chip-bg); padding:6px 10px; border-radius:14px; font-size:13px; }
+
+  /* inline dot lists */
+  .inline-par { margin-top:6px; font-size:13.4px; color:#111; }
+  .inline-par a { color:var(--accent); text-decoration:none; }
+  .dot { margin: 0 8px; color:var(--muted); }
+
+  /* compact lists */
+  .compact-list { margin:8px 0 0 0; padding-left:14px; }
+  .compact-list li { margin:6px 0; font-size:13.4px; }
+
+  /* responsive */
+  @media (max-width:720px) {
+    .entry { flex-direction:column; }
+    .entry-left, .entry-right { width:100%; text-align:left; }
+    .entry-right { margin-top:6px; }
+    .contact { text-align:left; margin-top:6px; }
+  }
+
+  @media print {
+    .cv { padding:0; margin:0; }
+  }
+
+  /* small helper styles */
+  .muted { color:var(--muted); font-size:13px; }
 </style>
 
-<section id="basics" class="resume-section">
-  <h2>👤 Basics</h2>
-  <p><strong>Name:</strong> Niloy Deb<br>
-     <strong>Label:</strong> Mechanical Engineering Graduate & Lecturer, Dept. of PMRE, BUET<br>
-     <strong>Website:</strong> <a href="https://niloydebpmre.github.io/webpage" target="_blank">niloydebpmre.github.io/webpage</a><br>
-     <strong>Summary:</strong> An aspiring individual interested in data-driven science, physics-informed machine learning, computational methods, and applied mathematics. Focused on dynamical systems, turbulence, and transport phenomena at both micro and macro scales.
-  </p>
-</section>
+<div class="cv">
 
-<section id="download-cv" class="resume-section">
-  <a href="link-to-cv.pdf" class="btn">📄 Download PDF CV</a>
-</section>
+  <!-- Header / Basics -->
+  <div class="header">
+    <div style="width:68%;">
+      <p class="name">Niloy Deb</p>
+      <p class="title">Mechanical Engineering Graduate & Lecturer, Dept. of Petroleum and Mineral Resources Engineering (PMRE), BUET</p>
 
-<section id="education" class="resume-section">
-  <h2>🎓 Education</h2>
-  <ul>
-    <li>
-      <img src="path-to-buet-logo.png" class="institution-logo" alt="BUET Logo">
-      <strong>Bangladesh University of Engineering and Technology (BUET)</strong><br>
-      <em style="color:lightskyblue;">B.Sc. in Mechanical Engineering</em><br>
-      Dhaka, Bangladesh | Mar 2018 – May 2023<br>
-      CGPA: <b>3.94/4.00</b> | Rank: <b>6/188 (Top 3%)</b><br>
-      Thesis: Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium.<br>
-      Supervisor: <b>Dr. Sumon Saha</b>
-    </li>
-    <li>
-      <img src="path-to-dhaka-college-logo.png" class="institution-logo" alt="Dhaka College Logo">
-      <strong>Dhaka College, Dhaka</strong><br>
-      Higher Secondary Certificate in Science
-    </li>
-  </ul>
-</section>
+      <p class="entry-desc" style="margin-top:8px;">
+        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven science, physics-informed machine learning, computational methods, and applied mathematics. Research interests include dynamical systems, turbulence, transport phenomena, and energy resources.
+      </p>
+    </div>
 
-<section id="interests" class="resume-section">
-  <h2>💡 Interests</h2>
-  <div class="keyword-list">
-    <span>Data-Driven Science</span>
-    <span>Physics-informed ML</span>
-    <span>Mathematical Modeling</span>
-    <span>CFD & Heat Transfer</span>
-    <span>Turbulence</span>
-    <span>Non-linear Dynamics</span>
-    <span>Climate Modeling</span>
-    <span>Porous Media</span>
-    <span>Energy Science</span>
+    <div class="contact" style="width:32%;">
+      <div style="font-weight:600;margin-bottom:6px;">Contact</div>
+      <div>EMAIL_HERE · PHONE_HERE</div>
+      <div style="margin-top:6px;">
+        <a href="LINKEDIN_URL" target="_blank">LinkedIn</a> · <a href="#" target="_blank">ORCID</a>
+      </div>
+      <div style="margin-top:8px;">
+        <a class="btn" href="link-to-cv.pdf" style="background:var(--accent); color:#fff; padding:6px 10px; border-radius:6px; text-decoration:none; font-size:13px;">📄 Download PDF</a>
+      </div>
+    </div>
   </div>
-</section>
 
-<section id="coursework" class="resume-section">
-  <h2>📚 Relevant Coursework</h2>
-  <h4>Advanced Graduate Level & Self-Learning</h4>
-  <ul>
-    <li>Advanced Numerical Analysis</li>
-    <li>Advanced Thermodynamics</li>
-    <li>Boiling and Condensation</li>
-    <li>Non-linear Dynamics and Chaos (S. Strogatz)</li>
-    <li>Global Warming: Science & Modeling (D. Archer)</li>
-    <li>Understanding Rheology (F. Morrison)</li>
-    <li>Flow in Porous Media (M. Blunt)</li>
-    <li>AI Principles & Techniques (Stanford Online)</li>
-    <li>Deep Learning in Scientific Computing (ETH Zurich)</li>
-    <li>Non-linear Systems (J. Slotine, MOCW)</li>
-  </ul>
-  <h4>Undergraduate/Basic Courses</h4>
-  <ul>
-    <li>Noise and Vibration</li>
-    <li>System Dynamics and Control</li>
-    <li>Thermodynamics</li>
-    <li>Fluid Mechanics</li>
-    <li>Heat Transfer</li>
-    <li>Combustion</li>
-    <li>Composite Materials</li>
-    <li>Numerical Analysis & Programming</li>
-  </ul>
-</section>
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4-9 4-9-4z"></path><path d="M3 7v7a9 9 0 0 0 9 5 9 9 0 0 0 9-5V7"></path></svg>
+      Education
+    </h2>
 
-<section id="research" class="resume-section">
-  <h2>🔬 Research Experience</h2>
-  <ul>
-    <li>
-      <strong>Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</strong><br>
-      Supervisor: Dr. Sumon Saha | June 2023
-    </li>
-    <li>
-      <strong>A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</strong><br>
-      Supervisor: Dr. Sumon Saha | August 2023
-    </li>
-    <li>
-      <strong>A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</strong><br>
-      Hydrocarbon Unit Research Program 2023-24<br>
-      Supervisor: Dr. Mohammed Mahbubur Rahman | May 2024
-    </li>
-  </ul>
-</section>
+    <div class="entry">
+      <div class="entry-left">
+        <div class="institution">
+          <img src="path-to-buet-logo.png" alt="BUET logo" class="institution-logo">
+          <div>
+            <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
+            <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
+          </div>
+        </div>
 
-<section id="publications" class="resume-section">
-  <h2>📄 Publications</h2>
-  <ul>
-    {% for post in site.publications reversed %}
-      {% include archive-single-cv.html %}
-    {% endfor %}
-  </ul>
-</section>
+        <p class="entry-desc"><strong>CGPA:</strong> 3.94 / 4.00 · <strong>Class Rank:</strong> 6 / 188 (Top 3%)<br>
+          <strong>Thesis:</strong> <em>Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium</em><br>
+          <strong>Supervisor:</strong> Dr. Sumon Saha
+        </p>
+      </div>
 
-<section id="professional-experience" class="resume-section">
-  <h2>💼 Professional Experience</h2>
-  <ul>
-    <li>
-      <strong>Bangladesh University of Engineering and Technology</strong><br>
-      <em style="color: lightskyblue;">Lecturer, Dept. of Petroleum and Mineral Resources Engineering</em><br>
-      Dhaka, Bangladesh | Dec 2023 - Present<br>
-      Academic research in Energy Resources Engineering (Hydrocarbon Reservoir Engineering, Drilling, Well Logging, Production).<br>
-      <b>Taught Undergraduate Courses:</b><br>
-      PMRE 411 - Petroleum Reservoir Engineering (50 students)<br>
-      PMRE 413 - Natural Gas Engineering (50 students)
-    </li>
-    <li>
-      <strong>Research Assistant, CFDHT Research Group, Dept. of ME</strong><br>
-      Dhaka, Bangladesh | June 2023 - Dec 2023<br>
-      * Numerical Modeling & Simulation of Thermo-Fluidic Problems<br>
-      * Computational Fluid Dynamics & Heat Transfer Research<br>
-      * Mentored undergraduate students
-    </li>
-    <li>
-      <strong>Co-instructor, Directorate of Continuing Education, BUET</strong><br>
-      Dhaka, Bangladesh | Dec 2023 (2-Day Workshop)<br>
-      Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level)<br>
-      Resource Person: Dr. Sumon Saha
-    </li>
-    <li>
-      <strong>Haripur 360 MW Combined Cycle Power Plant</strong><br>
-      <em style="color: lightskyblue;">Industrial Trainee</em><br>
-      Dhaka, Bangladesh | April 2022 (3 Weeks)<br>
-      First-hand experience in Power Generation, Unit operations (FGC, HRSG, ST, GT, WT), Maintenance, Control
-    </li>
-  </ul>
-</section>
+      <div class="entry-right">
+        March 2018 – May 2023
+        <span class="location">Dhaka, Bangladesh</span>
+      </div>
+    </div>
 
-<section id="academic-projects" class="resume-section">
-  <h2>📐 Academic Projects</h2>
-  <ul>
-    <li>
-      <strong>Design of a Counter-Flow Shell and Helical Coil Tube Heat Exchanger (SHCTHX)</strong><br>
-      <em style="color:lightskyblue;">ME-310: Thermo-fluid System Design & Practice | Feb 2022</em><br>
-      * CAD of mechanical components and systems<br>
-      * Thermo-hydraulic calculations & performance evaluation<br>
-      * Prototype design and CFD simulation
-    </li>
-    <li>
-      <strong>Self-Stabilizing, Computer-Controlled Laser Turret</strong><br>
-      <em style="color:lightskyblue;">ME-366: Electromechanical System Design & Practice | July 2021</em><br>
-      * CAD design, Arduino programming, sensor integration<br>
-      * Feedback control, system tuning for external disturbances<br>
-      * Hardware-software integration for stabilization and precision
-    </li>
-  </ul>
-</section>
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="institution">
+          <img src="path-to-dhaka-college-logo.png" alt="Dhaka College logo" class="institution-logo">
+          <div>
+            <div class="inst-name">Dhaka College, Dhaka</div>
+            <div class="inst-sub">Higher Secondary Certificate (Science)</div>
+          </div>
+        </div>
+      </div>
 
-<section id="training-mooc" class="resume-section">
-  <h2>🎓 Training & MOOC Completion</h2>
-  <ul>
-    <li>Research Skill Development | DCE, BUET | <a href="https://buetedu-my.sharepoint.com/:b:/g/personal/niloydeb_pmre_buet_ac_bd/EXOfHmAlqktAtOIqCe3qqqwBMHvi-7VKch1JsfkeN4RUmw?e=1pHMCX">Certificate</a></li>
-    <li>Quantitative Method | Coursera | <a href="https://www.coursera.org/account/accomplishments/verify/KUNNEK67EW6E">Certificate</a></li>
-    <li>Evaluating Problems | Coursera | <a href="https://www.coursera.org/account/accomplishments/verify/QWF5B9NVSPDD">Certificate</a></li>
-    <li>Welcome to Game Theory | Coursera | <a href="https://www.coursera.org/account/accomplishments/verify/3V72R3HBVLJS">Certificate</a></li>
-    <li>Intro to Data Analysis using Excel | Coursera | <a href="https://www.coursera.org/account/accomplishments/verify/8SC5YX5ZGN9K">Certificate</a></li>
-    <li>Intro to MATLAB Programming | Coursera | <a href="https://www.coursera.org/account/accomplishments/verify/TCQNM5G5Y7FP">Certificate</a></li>
-    <li>Python for Everybody (Specialization) | Coursera | <a href="https://www.coursera.org/account/accomplishments/specialization/VPRVZ5MZ43HX">Certificate</a></li>
-    <li>ELEN7070x: Research Methods (EdX) | <a href="https://courses.edx.org/certificates/9abb933553e644ed9f41ff096fc60a72">Certificate</a></li>
-    <li>16.00x: Aerospace Engineering (EdX) | <a href="https://courses.edx.org/certificates/ec2238cfcac64bbebddb7263c82ce30c">Certificate</a></li>
-    <li>Image Processing Onramp | MathWorks | <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=6c90b29d-19c4-4b51-9069-fa743ed4b1f7&">Certificate</a></li>
-    <li>Solving ODEs with MATLAB | MathWorks | <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=c390f6ca-c82a-4189-83ef-c67ccb7cc0dc&">Certificate</a></li>
-  </ul>
-</section>
+      <div class="entry-right">
+        <span class="location">Dhaka, Bangladesh</span>
+      </div>
+    </div>
+  </section>
 
-<section id="technical-skills" class="resume-section">
-  <h2>🛠 Technical Skills</h2>
-  <p><strong>Highlights:</strong> Scientific Writing | Exploratory Data Analysis | Quantitative Research</p>
-  <ul>
-    <li><strong>Programming:</strong> Python, MATLAB, C</li>
-    <li><strong>Documentation:</strong> LaTeX, MS Office</li>
-    <li><strong>Visualization:</strong> Tecplot 360, WebplotDigitizer, Desmos</li>
-    <li><strong>Design Tools:</strong> AutoCAD, SolidWorks, Proteus, Draw.io, Canva, Illustrator, Photoshop</li>
-    <li><strong>FEM Modeling:</strong> COMSOL Multiphysics</li>
-    <li><strong>Developer Tools:</strong> Simulink</li>
-  </ul>
-</section>
+  <!-- Interests -->
+  <section class="section" id="interests">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+      Interests
+    </h2>
 
-<section id="awards" class="resume-section">
-  <h2>🏆 Awards & Achievements</h2>
-  <ul>
-    <li><strong>Dr. Muhammad Harunur Rashid Award ICME 2023:</strong> Best paper, 14th Int. Conf. on Mech. Engg., Dept. of ME, BUET</li>
-    <li><strong>University Merit Scholarship 2018-2023:</strong> Consecutive terms from Level 1 to 4, BUET</li>
-    <li><strong>Dean’s List Award 2018-2023:</strong> Consecutive terms from Level 1 to 4, Dept. of ME, BUET</li>
-  </ul>
-</section>
+    <div class="chips" role="list">
+      <span class="chip">Data-Driven Science</span>
+      <span class="chip">Physics-informed ML</span>
+      <span class="chip">Mathematical Modeling</span>
+      <span class="chip">CFD & Heat Transfer</span>
+      <span class="chip">Turbulence</span>
+      <span class="chip">Non-linear Dynamics</span>
+      <span class="chip">Climate Modeling</span>
+      <span class="chip">Porous Media</span>
+      <span class="chip">Energy Science</span>
+    </div>
+  </section>
 
+  <!-- Coursework -->
+  <section class="section" id="coursework">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="2"></rect><path d="M7 20h10"></path></svg>
+      Relevant Coursework
+    </h2>
 
+    <div class="inline-par">
+      <strong>Advanced / Graduate & Self-Learning:</strong>
+      Advanced Numerical Analysis · Advanced Thermodynamics · Boiling & Condensation · Non-linear Dynamics & Chaos (S. Strogatz) · Global Warming — Science & Modeling (D. Archer) · Understanding Rheology (F. Morrison) · Flow in Porous Media (M. Blunt) · AI Principles & Techniques (Stanford Online) · Deep Learning in Scientific Computing (ETH Zurich) · Non-linear Systems (J. Slotine, MOCW)
+    </div>
 
+    <div class="inline-par" style="margin-top:8px;">
+      <strong>Undergraduate / Core:</strong>
+      Noise & Vibration · System Dynamics & Control · Thermodynamics · Fluid Mechanics · Heat Transfer · Combustion · Composite Materials · Numerical Analysis & Programming
+    </div>
+  </section>
 
+  <!-- Research -->
+  <section class="section" id="research">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"></path><path d="M12 3v18"></path></svg>
+      Research Experience
+    </h2>
 
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</div>
+        <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
+      </div>
+      <div class="entry-right">June 2023</div>
+    </div>
 
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</div>
+        <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
+      </div>
+      <div class="entry-right">Aug 2023</div>
+    </div>
 
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</div>
+        <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
+      </div>
+      <div class="entry-right">May 2024</div>
+    </div>
+  </section>
 
+  <!-- Publications (Jekyll include) -->
+  <section class="section" id="publications">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V7"></path><path d="M17 3H7a2 2 0 0 0-2 2v12"></path></svg>
+      Publications
+    </h2>
 
-  
+    <ul style="margin:6px 0 0 14px;">
+      {% for post in site.publications reversed %}
+        {% include archive-single-cv.html %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- Professional Experience -->
+  <section class="section" id="professional">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path></svg>
+      Professional Experience
+    </h2>
+
+    <!-- Lecturer -->
+    <div class="entry">
+      <div class="entry-left">
+        <div class="institution">
+          <img src="path-to-buet-logo.png" alt="BUET logo" class="institution-logo">
+          <div>
+            <div class="inst-name">Bangladesh University of Engineering and Technology</div>
+            <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
+          </div>
+        </div>
+
+        <p class="entry-desc">
+          Academic research in Energy Resources Engineering focusing on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Work framed within the global energy transition and developing-world context.<br>
+          <strong>Taught:</strong> PMRE 411 · Petroleum Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
+        </p>
+      </div>
+
+      <div class="entry-right">
+        Dec 2023 – Present
+        <span class="location">Dhaka, Bangladesh</span>
+      </div>
+    </div>
+
+    <!-- Research Assistant -->
+    <div class="entry" style="margin-top:8px;">
+      <div class="entry-left">
+        <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
+        <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
+      </div>
+      <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+    </div>
+
+    <!-- Co-instructor -->
+    <div class="entry" style="margin-top:8px;">
+      <div class="entry-left">
+        <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
+        <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
+      </div>
+      <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+    </div>
+
+    <!-- Industrial trainee -->
+    <div class="entry" style="margin-top:8px;">
+      <div class="entry-left">
+        <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
+        <div class="inst-sub">Industrial Trainee</div>
+        <div class="entry-desc">Hands-on exposure to power generation, unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
+      </div>
+      <div class="entry-right">Apr 2022 (3 weeks) <span class="location">Dhaka, Bangladesh</span></div>
+    </div>
+  </section>
+
+  <!-- Academic Projects -->
+  <section class="section" id="projects">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"></path><path d="M3 11h18"></path><path d="M3 15h18"></path></svg>
+      Academic Projects
+    </h2>
+
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">Design of a Counter-Flow Shell & Helical Coil Tube Heat Exchanger (SHCTHX)</div>
+        <div class="inst-sub">ME-310: Thermo-fluid System Design & Practice</div>
+        <div class="entry-desc">CAD design · Thermo-hydraulic calculations · Prototype design and CFD simulation for flow & thermal visualization.</div>
+      </div>
+      <div class="entry-right">Feb 2022</div>
+    </div>
+
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">Self-Stabilizing, Computer-Controlled Laser Turret</div>
+        <div class="inst-sub">ME-366: Electromechanical System Design & Practice</div>
+        <div class="entry-desc">CAD · Arduino programming · sensor integration & feedback control · hardware-software integration for stabilization and precision.</div>
+      </div>
+      <div class="entry-right">Jul 2021</div>
+    </div>
+  </section>
+
+  <!-- Training & MOOCs -->
+  <section class="section" id="training">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8V7a2 2 0 0 0-2-2h-3"></path><path d="M3 8v9a2 2 0 0 0 2 2h3"></path></svg>
+      Training & MOOC Completion
+    </h2>
+
+    <p class="inline-par">
+      Research Skill Development · DCE, BUET · <a href="https://buetedu-my.sharepoint.com/:b:/g/personal/niloydeb_pmre_buet_ac_bd/EXOfHmAlqktAtOIqCe3qqqwBMHvi-7VKch1JsfkeN4RUmw?e=1pHMCX">Certificate</a>
+      <span class="dot">·</span>
+      Quantitative Method · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/KUNNEK67EW6E">Certificate</a>
+      <span class="dot">·</span>
+      Evaluating Problems · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/QWF5B9NVSPDD">Certificate</a>
+      <span class="dot">·</span>
+      Welcome to Game Theory · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/3V72R3HBVLJS">Certificate</a>
+      <span class="dot">·</span>
+      Intro to Data Analysis using Excel · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/8SC5YX5ZGN9K">Certificate</a>
+      <span class="dot">·</span>
+      Introduction to Programming with MATLAB · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/TCQNM5G5Y7FP">Certificate</a>
+      <span class="dot">·</span>
+      Python for Everybody (Specialization) · Coursera · <a href="https://www.coursera.org/account/accomplishments/specialization/VPRVZ5MZ43HX">Certificate</a>
+      <span class="dot">·</span>
+      ELEN7070x: Research Methods · EdX · <a href="https://courses.edx.org/certificates/9abb933553e644ed9f41ff096fc60a72">Certificate</a>
+      <span class="dot">·</span>
+      16.00x: Introduction to Aerospace Engineering · EdX · <a href="https://courses.edx.org/certificates/ec2238cfcac64bbebddb7263c82ce30c">Certificate</a>
+      <span class="dot">·</span>
+      Image Processing Onramp · MathWorks · <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=6c90b29d-19c4-4b51-9069-fa743ed4b1f7&">Certificate</a>
+      <span class="dot">·</span>
+      Solving ODEs with MATLAB · MathWorks · <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=c390f6ca-c82a-4189-83ef-c67ccb7cc0dc&">Certificate</a>
+    </p>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section" id="skills">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path></svg>
+      Technical Skills
+    </h2>
+
+    <p class="entry-desc"><strong>Highlights:</strong> Scientific Writing · Exploratory Data Analysis · Quantitative Research</p>
+
+    <ul class="compact-list">
+      <li><strong>Programming:</strong> Python, MATLAB, C</li>
+      <li><strong>Documentation:</strong> LaTeX, MS Office</li>
+      <li><strong>Visualization:</strong> Tecplot 360, WebplotDigitizer, Desmos</li>
+      <li><strong>Design & CAD:</strong> AutoCAD, SolidWorks, Proteus, Draw.io, Canva, Illustrator, Photoshop</li>
+      <li><strong>FEM / Modeling:</strong> COMSOL Multiphysics · Simulink</li>
+    </ul>
+  </section>
+
+  <!-- Awards -->
+  <section class="section" id="awards">
+    <h2>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.09 6.26L20 9.27l-5 3.64L16.18 21 12 17.77 7.82 21 9 12.91 4 9.27l5.91-.99L12 2z"></path></svg>
+      Awards & Achievements
+    </h2>
+
+    <ul class="compact-list">
+      <li><strong>Dr. Muhammad Harunur Rashid Award (ICME 2023):</strong> Best paper — 14th Int. Conf. on Mechanical Engg., BUET</li>
+      <li><strong>University Merit Scholarship (2018–2023):</strong> Awarded for consecutive terms, BUET</li>
+      <li><strong>Dean’s List Award (2018–2023):</strong> Awarded for consecutive terms, Dept. of ME, BUET</li>
+    </ul>
+  </section>
+
+</div>
