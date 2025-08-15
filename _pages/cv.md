@@ -136,7 +136,7 @@ author_profile: true
       <p class="title">Mechanical Engineering Graduate</p>
 
       <p class="entry-desc" style="margin-top:8px;">
-        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven science, differentiable physics-informed machine learning, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
+        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven sciences, differentiable physics extended on ML, DL, and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
 
@@ -162,7 +162,7 @@ author_profile: true
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/buet.jpg" alt="BUET logo" class="institution-logo">
+          <img src="images/buet.png" alt="BUET logo" class="institution-logo">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
             <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
@@ -184,7 +184,7 @@ author_profile: true
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/dhakacollege.jpg" alt="Dhaka College logo" class="institution-logo">
+          <img src="images/dhakacollege.png" alt="Dhaka College logo" class="institution-logo">
           <div>
             <div class="inst-name">Dhaka College, Dhaka</div>
             <div class="inst-sub">Higher Secondary Certificate (Science)</div>
