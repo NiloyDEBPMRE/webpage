@@ -117,7 +117,7 @@ author_profile: true
   }
 
   .institution-logo {
-    height: 18px;
+    height: 24px;
     width: auto;
     display: inline-block;
     vertical-align: middle;
@@ -411,6 +411,9 @@ author_profile: true
     </div>
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
+        <div class="institution">
+          <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
+          <div>
         <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
         <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
       </div>
@@ -418,6 +421,9 @@ author_profile: true
     </div>
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
+        <div class="institution">
+          <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
+          <div>
         <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
         <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
       </div>
@@ -425,6 +431,9 @@ author_profile: true
     </div>
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
+        <div class="institution">
+          <img src="{{ site.baseurl }}/images/powertek.jpeg" alt="BUET logo" class="institution-logo">
+          <div>
         <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
         <div class="inst-sub">Industrial Trainee</div>
         <div class="entry-desc">Hands-on exposure to power generation, unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
