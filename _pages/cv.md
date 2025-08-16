@@ -117,7 +117,7 @@ author_profile: true
   }
 
   .institution-logo {
-    height: 24px;
+    height: 28px;
     width: auto;
     display: inline-block;
     vertical-align: middle;
@@ -383,64 +383,64 @@ author_profile: true
   </section>
 
   <section class="section" id="professional">
-    <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="2" y="7" width="20" height="14" rx="2"></rect>
-        <path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path>
-      </svg>
-      Professional Experience
-    </h2>
-    <div class="entry">
-      <div class="entry-left">
-        <div class="institution">
-          <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
-          <div>
-            <div class="inst-name">Bangladesh University of Engineering and Technology</div>
-            <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
-          </div>
+  <h2>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+      <path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path>
+    </svg>
+    Professional Experience
+  </h2>
+
+  <div class="entry">
+    <div class="entry-left">
+      <div class="institution">
+        <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
+        <div>
+          <div class="inst-name">Bangladesh University of Engineering and Technology</div>
+          <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
         </div>
-        <p class="entry-desc">
-          Academic research in Energy Resources Engineering focusing on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Work framed within the global energy transition and developing-world context.<br>
-          <strong>Taught:</strong> PMRE 411 · Petroleum Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
-        </p>
       </div>
-      <div class="entry-right">
-        Dec 2023 – Present
-        <span class="location">Dhaka, Bangladesh</span>
-      </div>
+      <p class="entry-desc">
+        Academic research in Energy Resources Engineering focusing on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Work framed within the global energy transition and developing-world context.<br>
+        <strong>Taught:</strong> PMRE 411 · Petroleum Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
+      </p>
     </div>
-    <div class="entry" style="margin-top:8px;">
-      <div class="entry-left">
-        <div class="institution">
-          <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
-          <div>
-        <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
-        <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
-      </div>
-      <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+    <div class="entry-right">
+      Dec 2023 – Present
+      <span class="location">Dhaka, Bangladesh</span>
     </div>
-    <div class="entry" style="margin-top:8px;">
-      <div class="entry-left">
-        <div class="institution">
-          <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
-          <div>
-        <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
-        <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
-      </div>
-      <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+  </div>
+
+  <div class="entry" style="margin-top:8px;">
+    <div class="entry-left">
+      <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
+      <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
     </div>
-    <div class="entry" style="margin-top:8px;">
-      <div class="entry-left">
-        <div class="institution">
-          <img src="{{ site.baseurl }}/images/powertek.jpeg" alt="BUET logo" class="institution-logo">
-          <div>
-        <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
-        <div class="inst-sub">Industrial Trainee</div>
-        <div class="entry-desc">Hands-on exposure to power generation, unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
-      </div>
-      <div class="entry-right">Apr 2022 (3 weeks) <span class="location">Dhaka, Bangladesh</span></div>
+    <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+  </div>
+
+  <div class="entry" style="margin-top:8px;">
+    <div class="entry-left">
+      <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
+      <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
     </div>
-  </section>
+    <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
+  </div>
+
+  <div class="entry" style="margin-top:8px;">
+    <div class="entry-left">
+      <div class="institution">
+        <img src="{{ site.baseurl }}/images/powertek.jpeg" alt="Powertek logo" class="institution-logo">
+        <div>
+          <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
+          <div class="inst-sub">Industrial Trainee</div>
+        </div>
+      </div>
+      <div class="entry-desc">Hands-on exposure to power generation, unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
+    </div>
+    <div class="entry-right">Apr 2022 (3 weeks) <span class="location">Dhaka, Bangladesh</span></div>
+  </div>
+</section>
 
   <section class="section" id="projects">
     <h2>
