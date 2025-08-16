@@ -281,6 +281,9 @@ author_profile: true
             <div class="inst-sub">Higher Secondary Certificate (Science)</div>
           </div>
         </div>
+        <p class="entry-desc">
+          <strong>GPA:</strong> 5:00 / 5.00 
+        </p>
       </div>
       <div class="entry-right">
         June 2015 - August 2017
@@ -382,7 +385,7 @@ author_profile: true
     </ul>
   </section>
 
-  <section class="section" id="professional">
+<section class="section" id="professional">
   <h2>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
       <rect x="2" y="7" width="20" height="14" rx="2"></rect>
@@ -413,7 +416,12 @@ author_profile: true
 
   <div class="entry" style="margin-top:8px;">
     <div class="entry-left">
-      <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
+      <div class="institution">
+        <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
+        <div>
+          <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
+        </div>
+      </div>
       <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
     </div>
     <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
@@ -421,7 +429,12 @@ author_profile: true
 
   <div class="entry" style="margin-top:8px;">
     <div class="entry-left">
-      <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
+      <div class="institution">
+        <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
+        <div>
+          <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
+        </div>
+      </div>
       <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
     </div>
     <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
