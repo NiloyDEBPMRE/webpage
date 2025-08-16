@@ -159,7 +159,7 @@ author_profile: true
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/buet.png" alt="BUET logo" class="institution-logo", style="height:40px; float:right; margin-left:10px;">
+          <img src="images/buet.png" alt="BUET logo" class="institution-logo">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
             <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
@@ -236,14 +236,14 @@ author_profile: true
 
    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><strong>Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</strong></div>
+        <div class="inst-name"><em>Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</em></div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">June 2023</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><strong>A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</strong></div>
+        <div class="inst-name"><em>A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</em></div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">Aug 2023</div>
@@ -251,15 +251,15 @@ author_profile: true
 
    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><strong>A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</strong></div>
+        <div class="inst-name"><em>A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</em></div>
         <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
       </div>
       <div class="entry-right">May 2024</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><strong> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG
- cold energy recovery</strong></div>
+        <div class="inst-name"><em> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG
+ cold energy recovery</em></div>
         <div class="entry-desc"> PI: Shaumik Rahman Ayon</div>
       </div>
       <div class="entry-right">May 2024</div>
