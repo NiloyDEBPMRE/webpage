@@ -7,129 +7,223 @@ author_profile: true
 
 {% include base_path %}
 
-<!--
-  Final polished CV HTML
-  - Replace logo paths and contact placeholders below
-  - Body font <= 14px
--->
-
 <style>
-  :root{
-    --body-font-size:14px;
-    --heading-font-size:16px;
-    --muted:#6b6b6b;
-    --accent:#0b66c3;
-    --chip-bg:#f3f6fb;
-    --line:#e6e6e6;
-    --max-width:920px;
+  :root {
+    --body-font-size: 14px;
+    --heading-font-size: 16px;
+    --muted: #444; /* Darker gray for better contrast */
+    --accent: #0b66c3;
+    --chip-bg: #f3f6fb;
+    --line: #e6e6e6;
+    --max-width: 920px;
   }
 
   .cv {
     max-width: var(--max-width);
     margin: 18px auto;
     font-family: "Helvetica Neue", Arial, sans-serif;
-    color:#111;
-    font-size:var(--body-font-size);
-    line-height:1.45;
-    padding:18px;
+    color: #111;
+    font-size: var(--body-font-size);
+    line-height: 1.45;
+    padding: 18px;
   }
 
   /* Header */
   .header {
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    gap:12px;
-    margin-bottom:6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 6px;
   }
+
   .name {
-    font-size:18px;
-    font-weight:700;
-    margin:0;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    color: #000; /* Ensure name is black for prominence */
   }
+
   .title {
-    font-size:13px;
-    color:var(--muted);
-    margin-top:4px;
-    font-style:italic;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 4px;
+    font-style: italic;
   }
+
   .contact {
-    text-align:right;
-    font-size:13px;
-    color:var(--muted);
+    text-align: right;
+    font-size: 13px;
+    color: var(--muted);
   }
-  .contact a { color:var(--accent); text-decoration:none; }
+
+  .contact a {
+    color: var(--accent);
+    text-decoration: none;
+  }
 
   /* Section */
   .section {
-    margin-top:14px;
-    padding-bottom:12px;
-    border-bottom:1px solid var(--line);
+    margin-top: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
   }
+
   .section h2 {
-    display:flex;
-    align-items:center;
-    gap:8px;
-    font-size:var(--heading-font-size);
-    margin:0 0 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: var(--heading-font-size);
+    margin: 0 0 10px 0;
   }
-  .section h2 svg { width:18px; height:18px; opacity:.95; }
+
+  .section h2 svg {
+    width: 18px;
+    height: 18px;
+    opacity: 0.95;
+  }
 
   /* Left / right entry */
   .entry {
-    display:flex;
-    justify-content:space-between;
-    gap:12px;
-    align-items:flex-start;
-    margin:8px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: flex-start;
+    margin: 8px 0;
   }
-  .entry-left { width:64%; }
-  .entry-right { width:34%; text-align:right; color:var(--muted); font-size:13px; }
-  .entry-right .location { display:block; margin-top:6px; font-style:italic; font-size:12.5px; }
+
+  .entry-left {
+    width: 64%;
+  }
+
+  .entry-right {
+    width: 34%;
+    text-align: right;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .entry-right .location {
+    display: block;
+    margin-top: 6px;
+    font-style: italic;
+    font-size: 12.5px;
+  }
 
   .institution {
-    display:flex;
-    gap:8px;
-    align-items:center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
-  .institution-logo { height:18px; width:auto; display:inline-block; vertical-align:middle; }
-  .institution .inst-name { font-weight:700; font-size:14px; }
-  .institution .inst-sub { color:var(--accent); font-style:italic; font-size:13.2px; margin-top:2px; }
 
-  .entry-desc { margin-top:6px; font-size:13.4px; color:#111; }
+  .institution-logo {
+    height: 18px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .institution .inst-name {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000; /* Ensure institution name is black */
+  }
+
+  .institution .inst-sub {
+    color: var(--accent);
+    font-style: italic;
+    font-size: 13.2px;
+    margin-top: 2px;
+  }
+
+  .entry-desc {
+    margin-top: 6px;
+    font-size: 13.4px;
+    color: #111;
+  }
 
   /* chips */
-  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
-  .chip { background:var(--chip-bg); padding:6px 10px; border-radius:14px; font-size:13px; }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .chip {
+    background: var(--chip-bg);
+    padding: 6px 10px;
+    border-radius: 14px;
+    font-size: 13px;
+    color: #333; /* Darken chip text for contrast */
+  }
 
   /* inline dot lists */
-  .inline-par { margin-top:6px; font-size:13.4px; color:#111; }
-  .inline-par a { color:var(--accent); text-decoration:none; }
-  .dot { margin: 0 8px; color:var(--muted); }
+  .inline-par {
+    margin-top: 6px;
+    font-size: 13.4px;
+    color: #111;
+  }
+
+  .inline-par a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .dot {
+    margin: 0 8px;
+    color: var(--muted);
+  }
 
   /* compact lists */
-  .compact-list { margin:8px 0 0 0; padding-left:14px; }
-  .compact-list li { margin:6px 0; font-size:13.4px; }
+  .compact-list {
+    margin: 8px 0 0 0;
+    padding-left: 14px;
+  }
+
+  .compact-list li {
+    margin: 6px 0;
+    font-size: 13.4px;
+  }
 
   /* responsive */
-  @media (max-width:720px) {
-    .entry { flex-direction:column; }
-    .entry-left, .entry-right { width:100%; text-align:left; }
-    .entry-right { margin-top:6px; }
-    .contact { text-align:left; margin-top:6px; }
+  @media (max-width: 720px) {
+    .entry {
+      flex-direction: column;
+    }
+
+    .entry-left,
+    .entry-right {
+      width: 100%;
+      text-align: left;
+    }
+
+    .entry-right {
+      margin-top: 6px;
+    }
+
+    .contact {
+      text-align: left;
+      margin-top: 6px;
+    }
   }
 
   @media print {
-    .cv { padding:0; margin:0; }
+    .cv {
+      padding: 0;
+      margin: 0;
+    }
   }
 
   /* small helper styles */
-  .muted { color:var(--muted); font-size:13px; }
+  .muted {
+    color: var(--muted);
+    font-size: 13px;
+  }
 </style>
 
 <div class="cv">
 
-  <!-- Header / Basics -->
   <div class="header">
     <div style="width:68%;">
       <p class="name">Niloy Deb</p>
@@ -150,22 +244,25 @@ author_profile: true
     </div>
   </div>
 
-  <!-- Education -->
   <section class="section" id="education">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4-9 4-9-4z"></path><path d="M3 7v7a9 9 0 0 0 9 5 9 9 0 0 0 9-5V7"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 7l9-4 9 4-9 4-9-4z"></path>
+        <path d="M3 7v7a9 9 0 0 0 9 5 9 9 0 0 0 9-5V7"></path>
+      </svg>
       Education
     </h2>
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/buet.png" alt="BUET logo" class="institution-logo">
+          <img src="/images/buet.png" alt="BUET logo" class="institution-logo">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
             <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
           </div>
         </div>
-        <p class="entry-desc"><strong>CGPA:</strong> 3.94 / 4.00 · <strong>Class Rank:</strong> 6 / 188 (Top 3%)<br>
+        <p class="entry-desc">
+          <strong>CGPA:</strong> 3.94 / 4.00 · <strong>Class Rank:</strong> 6 / 188 (Top 3%)<br>
           <strong>Thesis:</strong> <em>Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium</em><br>
           <strong>Supervisor:</strong> Dr. Sumon Saha
         </p>
@@ -178,7 +275,7 @@ author_profile: true
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/dhakacollege.png" alt="Dhaka College logo" class="institution-logo">
+          <img src="/images/dhakacollege.png" alt="Dhaka College logo" class="institution-logo">
           <div>
             <div class="inst-name">Dhaka College, Dhaka</div>
             <div class="inst-sub">Higher Secondary Certificate (Science)</div>
@@ -186,16 +283,18 @@ author_profile: true
         </div>
       </div>
       <div class="entry-right">
-      June 2015 - August 2017
+        June 2015 - August 2017
         <span class="location">Dhaka, Bangladesh</span>
       </div>
     </div>
   </section>
 
-  <!-- Interests -->
   <section class="section" id="interests">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <path d="M12 6v6l4 2"></path>
+      </svg>
       Interests
     </h2>
     <div class="chips" role="list">
@@ -205,16 +304,18 @@ author_profile: true
       <span class="chip">CFD & Heat Transfer</span>
       <span class="chip">Turbulence</span>
       <span class="chip">Non-linear Dynamics</span>
-      <span class="chip">Fluid under Multiphysics Environment </span>
+      <span class="chip">Fluid under Multiphysics Environment</span>
       <span class="chip">Porous Media Flow</span>
       <span class="chip">Physics of Convection</span>
     </div>
   </section>
 
-  <!-- Coursework -->
   <section class="section" id="coursework">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="2"></rect><path d="M7 20h10"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="6" rx="2"></rect>
+        <path d="M7 20h10"></path>
+      </svg>
       Relevant Coursework
     </h2>
     <div class="inline-par">
@@ -227,70 +328,72 @@ author_profile: true
     </div>
   </section>
 
-  <!-- Research -->
   <section class="section" id="research">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"></path><path d="M12 3v18"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 7h18"></path>
+        <path d="M12 3v18"></path>
+      </svg>
       Research Experience
     </h2>
-
-   <div class="entry" style="margin-top:6px;">
+    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><em>Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</em></div>
+        <div class="inst-name">Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">June 2023</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><em>A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</em></div>
+        <div class="inst-name">A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">Aug 2023</div>
     </div>
-
-   <div class="entry" style="margin-top:6px;">
+    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><em>A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</em></div>
+        <div class="inst-name">A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</div>
         <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
       </div>
       <div class="entry-right">May 2024</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"><em> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG
- cold energy recovery</em></div>
+        <div class="inst-name"> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG cold energy recovery</div>
         <div class="entry-desc"> PI: Shaumik Rahman Ayon</div>
       </div>
       <div class="entry-right">May 2024</div>
     </div>
   </section>
 
-  <!-- Publications (Jekyll include) -->
   <section class="section" id="publications">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V7"></path><path d="M17 3H7a2 2 0 0 0-2 2v12"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21H5a2 2 0 0 1-2-2V7"></path>
+        <path d="M17 3H7a2 2 0 0 0-2 2v12"></path>
+      </svg>
       Publications
     </h2>
 
-  <ul style="margin:6px 0 0 14px;">
+    <ul style="margin:6px 0 0 14px;">
       {% for post in site.publications reversed %}
-        {% include archive-single-cv.html %}
+      {% include archive-single-cv.html %}
       {% endfor %}
     </ul>
   </section>
 
-  <!-- Professional Experience -->
   <section class="section" id="professional">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+        <path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path>
+      </svg>
       Professional Experience
     </h2>
-  <!-- Lecturer -->
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="path-to-buet-logo.png" alt="BUET logo" class="institution-logo">
+          <img src="/images/buet.png" alt="BUET logo" class="institution-logo">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology</div>
             <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
@@ -306,7 +409,6 @@ author_profile: true
         <span class="location">Dhaka, Bangladesh</span>
       </div>
     </div>
-    <!-- Research Assistant -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
         <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
@@ -314,7 +416,6 @@ author_profile: true
       </div>
       <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
     </div>
-    <!-- Co-instructor -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
         <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
@@ -322,7 +423,6 @@ author_profile: true
       </div>
       <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
     </div>
-   <!-- Industrial trainee -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
         <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
@@ -333,14 +433,17 @@ author_profile: true
     </div>
   </section>
 
-  <!-- Academic Projects -->
   <section class="section" id="projects">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18"></path><path d="M3 11h18"></path><path d="M3 15h18"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 7h18"></path>
+        <path d="M3 11h18"></path>
+        <path d="M3 15h18"></path>
+      </svg>
       Academic Projects
     </h2>
 
-   <div class="entry" style="margin-top:6px;">
+    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="inst-name">Design of a Counter-Flow Shell & Helical Coil Tube Heat Exchanger (SHCTHX)</div>
         <div class="inst-sub">ME-310: Thermo-fluid System Design & Practice</div>
@@ -349,7 +452,7 @@ author_profile: true
       <div class="entry-right">Feb 2022</div>
     </div>
 
-   <div class="entry" style="margin-top:6px;">
+    <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="inst-name">Self-Stabilizing, Computer-Controlled Laser Turret</div>
         <div class="inst-sub">ME-366: Electromechanical System Design & Practice</div>
@@ -359,14 +462,16 @@ author_profile: true
     </div>
   </section>
 
-  <!-- Training & MOOCs -->
   <section class="section" id="training">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8V7a2 2 0 0 0-2-2h-3"></path><path d="M3 8v9a2 2 0 0 0 2 2h3"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 8V7a2 2 0 0 0-2-2h-3"></path>
+        <path d="M3 8v9a2 2 0 0 0 2 2h3"></path>
+      </svg>
       Training & MOOC Completion
     </h2>
 
-   <p class="inline-par">
+    <p class="inline-par">
       Research Skill Development · DCE, BUET · <a href="https://buetedu-my.sharepoint.com/:b:/g/personal/niloydeb_pmre_buet_ac_bd/EXOfHmAlqktAtOIqCe3qqqwBMHvi-7VKch1JsfkeN4RUmw?e=1pHMCX">Certificate</a>
       <span class="dot">·</span>
       Quantitative Method · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/KUNNEK67EW6E">Certificate</a>
@@ -391,13 +496,16 @@ author_profile: true
     </p>
   </section>
 
-  <!-- Technical Skills -->
   <section class="section" id="skills">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path>
+      </svg>
       Technical Skills
     </h2>
-    <p class="entry-desc"><strong>Highlights:</strong> Scientific Writing · Exploratory Data Analysis · Quantitative Research</p>
+    <p class="entry-desc">
+      <strong>Highlights:</strong> Scientific Writing · Exploratory Data Analysis · Quantitative Research
+    </p>
     <ul class="compact-list">
       <li><strong>Programming:</strong> Python, MATLAB, C</li>
       <li><strong>Documentation:</strong> LaTeX, MS Office</li>
@@ -407,10 +515,11 @@ author_profile: true
     </ul>
   </section>
 
-  <!-- Awards -->
   <section class="section" id="awards">
     <h2>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.09 6.26L20 9.27l-5 3.64L16.18 21 12 17.77 7.82 21 9 12.91 4 9.27l5.91-.99L12 2z"></path></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l2.09 6.26L20 9.27l-5 3.64L16.18 21 12 17.77 7.82 21 9 12.91 4 9.27l5.91-.99L12 2z"></path>
+      </svg>
       Awards & Achievements
     </h2>
     <ul class="compact-list">
