@@ -134,12 +134,10 @@ author_profile: true
     <div style="width:68%;">
       <p class="name">Niloy Deb</p>
       <p class="title">Mechanical Engineering Graduate</p>
-
       <p class="entry-desc" style="margin-top:8px;">
         <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven sciences, differentiable physics extended on ML, DL, and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
-
     <div class="contact" style="width:32%;">
       <div style="font-weight:600;margin-bottom:6px;">Contact</div>
       <div>niloydeb@pmre.buet.ac.bd</div>
@@ -158,29 +156,25 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l9-4 9 4-9 4-9-4z"></path><path d="M3 7v7a9 9 0 0 0 9 5 9 9 0 0 0 9-5V7"></path></svg>
       Education
     </h2>
-
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
-          <img src="images/buet.png" alt="BUET logo" class="institution-logo">
+          <img src="images/buet.png" alt="BUET logo" class="institution-logo", style="height:40px; float:right; margin-left:10px;">
           <div>
             <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
             <div class="inst-sub">Bachelor of Science in Mechanical Engineering</div>
           </div>
         </div>
-
         <p class="entry-desc"><strong>CGPA:</strong> 3.94 / 4.00 · <strong>Class Rank:</strong> 6 / 188 (Top 3%)<br>
           <strong>Thesis:</strong> <em>Case Study of Natural and Mixed Convection Heat Transfer inside Different Chambers with the Presence of Porous Medium</em><br>
           <strong>Supervisor:</strong> Dr. Sumon Saha
         </p>
       </div>
-
       <div class="entry-right">
         March 2018 – May 2023
         <span class="location">Dhaka, Bangladesh</span>
       </div>
     </div>
-
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="institution">
@@ -191,7 +185,6 @@ author_profile: true
           </div>
         </div>
       </div>
-
       <div class="entry-right">
       June 2015 - August 2017
         <span class="location">Dhaka, Bangladesh</span>
@@ -205,7 +198,6 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
       Interests
     </h2>
-
     <div class="chips" role="list">
       <span class="chip">Data-Driven Sciences</span>
       <span class="chip">Differentiable Physics</span>
@@ -225,12 +217,10 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="2"></rect><path d="M7 20h10"></path></svg>
       Relevant Coursework
     </h2>
-
     <div class="inline-par">
       <strong>Advanced / Graduate & Self-Learning:</strong>
       Advanced Numerical Analysis · Advanced Thermodynamics · Boiling & Condensation · Non-linear Dynamics & Chaos (S. Strogatz) · Global Warming — Science & Modeling (D. Archer) · Understanding Rheology (F. Morrison) · Flow in Porous Media (M. Blunt) · AI Principles & Techniques (Stanford Online) · Deep Learning in Scientific Computing (ETH Zurich) · Non-linear Systems (J. Slotine, MOCW)
     </div>
-
     <div class="inline-par" style="margin-top:8px;">
       <strong>Undergraduate / Core:</strong>
       Noise & Vibration · System Dynamics & Control · Thermodynamics · Fluid Mechanics · Heat Transfer · Combustion · Composite Materials · Numerical Analysis & Programming
@@ -244,26 +234,33 @@ author_profile: true
       Research Experience
     </h2>
 
-    <div class="entry" style="margin-top:6px;">
+   <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</div>
+        <div class="inst-name"><strong>Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</strong></div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">June 2023</div>
     </div>
-
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</div>
+        <div class="inst-name"><strong>A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</strong></div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">Aug 2023</div>
     </div>
 
+   <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name"><strong>A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</strong></div>
+        <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
+      </div>
+      <div class="entry-right">May 2024</div>
+    </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</div>
-        <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
+        <div class="inst-name"><strong> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG
+ cold energy recovery</strong></div>
+        <div class="entry-desc"> PI: Shaumik Rahman Ayon</div>
       </div>
       <div class="entry-right">May 2024</div>
     </div>
@@ -276,7 +273,7 @@ author_profile: true
       Publications
     </h2>
 
-    <ul style="margin:6px 0 0 14px;">
+  <ul style="margin:6px 0 0 14px;">
       {% for post in site.publications reversed %}
         {% include archive-single-cv.html %}
       {% endfor %}
@@ -289,8 +286,7 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 3h0a2 2 0 0 1 2 2v2H6V5a2 2 0 0 1 2-2h0"></path></svg>
       Professional Experience
     </h2>
-
-    <!-- Lecturer -->
+  <!-- Lecturer -->
     <div class="entry">
       <div class="entry-left">
         <div class="institution">
@@ -300,19 +296,16 @@ author_profile: true
             <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
           </div>
         </div>
-
         <p class="entry-desc">
           Academic research in Energy Resources Engineering focusing on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Work framed within the global energy transition and developing-world context.<br>
           <strong>Taught:</strong> PMRE 411 · Petroleum Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
         </p>
       </div>
-
       <div class="entry-right">
         Dec 2023 – Present
         <span class="location">Dhaka, Bangladesh</span>
       </div>
     </div>
-
     <!-- Research Assistant -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
@@ -321,7 +314,6 @@ author_profile: true
       </div>
       <div class="entry-right">Jun 2023 – Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
     </div>
-
     <!-- Co-instructor -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
@@ -330,8 +322,7 @@ author_profile: true
       </div>
       <div class="entry-right">Dec 2023 <span class="location">Dhaka, Bangladesh</span></div>
     </div>
-
-    <!-- Industrial trainee -->
+   <!-- Industrial trainee -->
     <div class="entry" style="margin-top:8px;">
       <div class="entry-left">
         <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
@@ -349,7 +340,7 @@ author_profile: true
       Academic Projects
     </h2>
 
-    <div class="entry" style="margin-top:6px;">
+   <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="inst-name">Design of a Counter-Flow Shell & Helical Coil Tube Heat Exchanger (SHCTHX)</div>
         <div class="inst-sub">ME-310: Thermo-fluid System Design & Practice</div>
@@ -358,7 +349,7 @@ author_profile: true
       <div class="entry-right">Feb 2022</div>
     </div>
 
-    <div class="entry" style="margin-top:6px;">
+   <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
         <div class="inst-name">Self-Stabilizing, Computer-Controlled Laser Turret</div>
         <div class="inst-sub">ME-366: Electromechanical System Design & Practice</div>
@@ -375,7 +366,7 @@ author_profile: true
       Training & MOOC Completion
     </h2>
 
-    <p class="inline-par">
+   <p class="inline-par">
       Research Skill Development · DCE, BUET · <a href="https://buetedu-my.sharepoint.com/:b:/g/personal/niloydeb_pmre_buet_ac_bd/EXOfHmAlqktAtOIqCe3qqqwBMHvi-7VKch1JsfkeN4RUmw?e=1pHMCX">Certificate</a>
       <span class="dot">·</span>
       Quantitative Method · Coursera · <a href="https://www.coursera.org/account/accomplishments/verify/KUNNEK67EW6E">Certificate</a>
@@ -406,9 +397,7 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path></svg>
       Technical Skills
     </h2>
-
     <p class="entry-desc"><strong>Highlights:</strong> Scientific Writing · Exploratory Data Analysis · Quantitative Research</p>
-
     <ul class="compact-list">
       <li><strong>Programming:</strong> Python, MATLAB, C</li>
       <li><strong>Documentation:</strong> LaTeX, MS Office</li>
@@ -424,7 +413,6 @@ author_profile: true
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.09 6.26L20 9.27l-5 3.64L16.18 21 12 17.77 7.82 21 9 12.91 4 9.27l5.91-.99L12 2z"></path></svg>
       Awards & Achievements
     </h2>
-
     <ul class="compact-list">
       <li><strong>Dr. Muhammad Harunur Rashid Award (ICME 2023):</strong> Best paper — 14th Int. Conf. on Mechanical Engg., BUET</li>
       <li><strong>University Merit Scholarship (2018–2023):</strong> Awarded for consecutive terms, BUET</li>
