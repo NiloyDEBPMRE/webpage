@@ -229,7 +229,7 @@ author_profile: true
       <p class="name">Niloy Deb</p>
       <p class="title">Mechanical Engineering Graduate</p>
       <p class="entry-desc" style="margin-top:8px;">
-        <strong>Summary:</strong> An aspiring researcher-engineer focused on data-driven sciences, differentiable physics extended on ML, DL, and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
+        <strong>Summary:</strong> An aspiring mechanical engineering graduate focused on data-driven sciences, differentiable physics extended on ML, DL, and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
     <div class="contact" style="width:32%;">
@@ -301,14 +301,17 @@ author_profile: true
       Interests
     </h2>
     <div class="chips" role="list">
-      <span class="chip">Data-Driven Sciences</span>
+      <span class="chip">Data-Driven Science</span>
+      <span class="chip">Statistical Modeling, Applied Machine Learing, & Deep Learning</span>
       <span class="chip">Differentiable Physics</span>
-      <span class="chip">Mathematical and Computational Modeling</span>
-      <span class="chip">CFD & Heat Transfer</span>
-      <span class="chip">Turbulence</span>
-      <span class="chip">Non-linear Dynamics</span>
-      <span class="chip">Fluid under Multiphysics Environment</span>
-      <span class="chip">Porous Media Flow</span>
+      <span class="chip">Mathematical & Computational Modeling</span>
+      <span class="chip">Numerical Methods - FEM, FDM, FVM, SEM, etc.</span>
+      <span class="chip">Computational Fluid Dynamics & Heat Transfer</span>
+      <span class="chip">Advanced Thermodynamics Applications & Optimization</span>
+      <span class="chip">Physics of Turbulence</span>
+      <span class="chip">Chaotic Dynamical System and Control</span>
+      <span class="chip">Fluid under Multiphysics Environments</span>
+      <span class="chip">Fluid Flow Through Porous & Subsurface Media</span>
       <span class="chip">Physics of Convection</span>
     </div>
   </section>
@@ -322,12 +325,12 @@ author_profile: true
       Relevant Coursework
     </h2>
     <div class="inline-par">
-      <strong>Advanced / Graduate & Self-Learning:</strong>
-      Advanced Numerical Analysis · Advanced Thermodynamics · Boiling & Condensation · Non-linear Dynamics & Chaos (S. Strogatz) · Global Warming — Science & Modeling (D. Archer) · Understanding Rheology (F. Morrison) · Flow in Porous Media (M. Blunt) · AI Principles & Techniques (Stanford Online) · Deep Learning in Scientific Computing (ETH Zurich) · Non-linear Systems (J. Slotine, MOCW)
+      <strong>Advanced / Graduate & Self-Learning:</strong> (listed partially)
+      Advanced Numerical Analysis (Dept. of ME, BUET)· Advanced Thermodynamics (classical and statistical) (Dept. of ME, BUET)· Boiling & Condensation Heat Transfer (Dept. of ME, BUET) · Reservoir Engineering (Dept. of PMRE, BUET) · Non-linear Dynamics & Chaos (S. Strogatz, Online) · Non-linear Systems (J. Slotine, MOCW) · Control Bootcamp (S. L. Brunton, Online)· Global Warming - Science & Modeling (D. Archer, edX) · Understanding Rheology (F. Morrison, Online) · Flow in Porous Media (M. Blunt, Online) · Physics of Turbulence (M. K. Verma, IITK-NPTEL) · Advanced Fluid Mechanics (S. Chakraborty, IITKGP-NPTEL) · AI Principles & Techniques (Stanford Online) · Deep Learning in Scientific Computing (ETH Zurich) · Data Analytics and Geostatistics (M. J. Pyrcz, Online) · Matrix Calculus for Machine Learning and Beyond (A. Edelman & S. G. Johnson, MOCW) ·  Matrix, Numerical and Optimization Methods in Science and Engineering (K. Cassel, Online) · Applied Time Series Analysis (A. K. Tangirala, IITM-NPTEL) · Probabilistic System Analysis and Applied Probability (J. Tsitsiklis, MOCW)· Data-Driven Science and Engineering (S. L. Brunton, Online) · Random Physics Lectures (classical, Statistical, Quantum Mechanics, Modern Physics - Special and General Relativity by L. Susskind, Online )- did just for fun. 
     </div>
     <div class="inline-par" style="margin-top:8px;">
       <strong>Undergraduate / Core:</strong>
-      Noise & Vibration · System Dynamics & Control · Thermodynamics · Fluid Mechanics · Heat Transfer · Combustion · Composite Materials · Numerical Analysis & Programming
+      Instrumentation and Measurement· Electro-Mechanical System Design (Project) · Noise & Vibration · Control Engineering · Engineering Mechanics (I & II) · Mechanics of Solids · Thermodynamics (Basic)· Advanced Thermodynamics (Classical and Statistical) · Fluid Mechanics (I & II) · Heat Transfer · Heat Transfer Equipment Design · Thermo Fluid System Design (Project)· Combustion · Refrigeration and Building Mechanical System · Numerical Analysis · Computer Programming 
     </div>
   </section>
 
@@ -341,28 +344,35 @@ author_profile: true
     </h2>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">Robustness of Linear Controllers (P, PI, PID) in Convection Modeling</div>
+        <div class="inst-name">Thermal Management and Robustness of Linear Controllers (P, PI, PID) in Mixed Convection Modeling - A CFD Approach</div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">June 2023</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">A Generalized Formulation for Nusselt Number Irrespective of Thermal Boundary Conditions</div>
+        <div class="inst-name">Revisiting the Numerical Calculation of Nusselt Number (Nu) for Different Thermal Boundary Conditions</div>
         <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
       </div>
       <div class="entry-right">Aug 2023</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name">A Study of Reservoir Fluid Properties and Phase Behavior of Titas Gas Field</div>
-        <div class="entry-desc">Hydrocarbon Unit Research Program 2023–24 · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
+        <div class="inst-name">Natural and Mixed Convection Heat Transfer in the Presence of Porous Medium with Magnetohydrodynamics, Joule Heating, and Internal Heat Generation</div>
+        <div class="entry-desc">Supervisor: Dr. Sumon Saha</div>
+      </div>
+      <div class="entry-right">Aug 2023</div>
+    </div>
+    <div class="entry" style="margin-top:6px;">
+      <div class="entry-left">
+        <div class="inst-name">Subsurface Fluid Properties and Phase Behavior — A Case Study of the Titas Gas Field in Bangladesh: Changes in Natural Gas Phase Behavior Across Spatial and Temporal Dimensions. </div>
+        <div class="entry-desc">Funded Project by 'Hydrocarbon Unit Research Program 2023–24' · Supervisor / PI: Dr. Mohammed Mahbubur Rahman</div>
       </div>
       <div class="entry-right">May 2024</div>
     </div>
     <div class="entry" style="margin-top:6px;">
       <div class="entry-left">
-        <div class="inst-name"> Thermodynamic optimization of a novel three-stage direct expansion cycle for LNG cold energy recovery</div>
+        <div class="inst-name"> Thermodynamic Optimization of a Novel Three-Stage Direct Expansion Cycle for LNG Cold Energy Recovery</div>
         <div class="entry-desc"> PI: Shaumik Rahman Ayon</div>
       </div>
       <div class="entry-right">May 2024</div>
@@ -404,8 +414,8 @@ author_profile: true
         </div>
       </div>
       <p class="entry-desc">
-        Academic research in Energy Resources Engineering focusing on Hydrocarbon Reservoir Engineering, Drilling, Well Logging, and Production. Work framed within the global energy transition and developing-world context.<br>
-        <strong>Taught:</strong> PMRE 411 · Petroleum Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
+        <strong> Academic research </strong> on · Energy Resources Engineering · Hydrocarbon Reservoir Engineering · Advanced Well Testing and Interpretation · Advanced Reservoir Simulation .<br>
+        <strong> Taught (Undergraduate Courses):</strong> PMRE 411 · Reservoir Engineering · PMRE 413 · Natural Gas Engineering (≈50 students each)
       </p>
     </div>
     <div class="entry-right">
@@ -419,7 +429,8 @@ author_profile: true
       <div class="institution">
         <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
         <div>
-          <div class="inst-name">Research Assistant, CFDHT Research Group, Dept. of ME</div>
+          <div class="inst-name">Computational Fluid Dynamics and Heat Transfer (CFDHT) Research Group, Dept. of Mechanical Engineering, BUET</div>
+          <div class="inst-sub">Research Assistant</div>
         </div>
       </div>
       <div class="entry-desc">Numerical modeling & simulation of thermo-fluid problems · CFD & Heat Transfer research · Mentored undergraduate students</div>
@@ -432,7 +443,8 @@ author_profile: true
       <div class="institution">
         <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
         <div>
-          <div class="inst-name">Co-instructor, Directorate of Continuing Education, BUET</div>
+          <div class="inst-name">Directorate of Continuing Education, BUET</div>
+          <div class="inst-sub">Co-instructor</div>
         </div>
       </div>
       <div class="entry-desc">Short course: COMSOL Multiphysics Simulation of Thermo-fluidic Problems (Basic Level) · 2-day workshop · Resource person: Dr. Sumon Saha</div>
@@ -446,10 +458,11 @@ author_profile: true
         <img src="{{ site.baseurl }}/images/powertek.jpeg" alt="Powertek logo" class="institution-logo">
         <div>
           <div class="inst-name">Haripur 360 MW Combined Cycle Power Plant</div>
-          <div class="inst-sub">Industrial Trainee</div>
+          <div class="inst-sub">Industrial Trainee </div>
         </div>
       </div>
-      <div class="entry-desc">Hands-on exposure to power generation, unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
+      <div class="entry-desc">An internship program organized by the dept. of Mechanical Engineering, BUET <br>
+      Hands-on exposure to power generation, Plant unit operations (FGC, HRSG, ST, GT, WT), maintenance, and process control.</div>
     </div>
     <div class="entry-right">Apr 2022 (3 weeks) <span class="location">Dhaka, Bangladesh</span></div>
   </div>
@@ -530,11 +543,14 @@ author_profile: true
       <strong>Highlights:</strong> Scientific Writing · Exploratory Data Analysis · Quantitative Research
     </p>
     <ul class="compact-list">
-      <li><strong>Programming:</strong> Python, MATLAB, C</li>
-      <li><strong>Documentation:</strong> LaTeX, MS Office</li>
-      <li><strong>Visualization:</strong> Tecplot 360, WebplotDigitizer, Desmos</li>
-      <li><strong>Design & CAD:</strong> AutoCAD, SolidWorks, Proteus, Draw.io, Canva, Illustrator, Photoshop</li>
-      <li><strong>FEM / Modeling:</strong> COMSOL Multiphysics · Simulink</li>
+      <li><strong>Programming Language:</strong> Python, MATLAB, C</li>
+      <li><strong>Documentation/Scripting:</strong> LaTeX, MS Office, Jupyter Notebook Markdown Text</li>
+      <li><strong>Visualization:</strong> Tecplot 360, WebPlotDigitizer, Desmos graphing calculator, Python - Matplotlib, Plotly, Seaborn</li>
+      <li><strong>Design, CAD, & Drawing:</strong> AutoCAD, SolidWorks, Proteus, Draw.io, Canva, Illustrator, Photoshop, LaTeX - TikZ, Python - OpenCV, Pillow, scikit-image </li>
+      <li><strong>FEM Modeling:</strong> COMSOL Multiphysics</li>
+      <li><strong> Reservoir Simulation:</strong> Kappa Workstation (Rubis - Full Reservoir Numerical Modeling, Saphir - Pressure Transient Analysis).</li>
+      <li><strong> ML/DL/Stats:</strong> Python - scikit-learn, TensorFlow, PyTorch, JAX, SciPY, PyMC/3/4, etc. </li>
+      <li><strong>Exploratory Data Analysis:</strong> Python - Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn</li>
     </ul>
   </section>
 
@@ -546,7 +562,7 @@ author_profile: true
       Awards & Achievements
     </h2>
     <ul class="compact-list">
-      <li><strong>Dr. Muhammad Harunur Rashid Award (ICME 2023):</strong> Best paper — 14th Int. Conf. on Mechanical Engg., BUET</li>
+      <li><strong>Dr. Muhammad Harunur Rashid Award (ICME 2023):</strong> Best paper — 14th International Conference on Mechanical Engineering, Dept. of Mechanical Engineering, BUET</li>
       <li><strong>University Merit Scholarship (2018–2023):</strong> Awarded for consecutive terms, BUET</li>
       <li><strong>Dean’s List Award (2018–2023):</strong> Awarded for consecutive terms, Dept. of ME, BUET</li>
     </ul>
