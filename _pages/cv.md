@@ -229,7 +229,7 @@ author_profile: true
       <p class="name">Niloy Deb</p>
       <p class="title">Mechanical Engineering Graduate</p>
       <p class="entry-desc" style="margin-top:8px;">
-        <strong>Summary:</strong> An aspiring mechanical engineering graduate focused on data-driven sciences, differentiable physics extended on ML, DL, and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
+        <strong>Summary:</strong> An aspiring mechanical engineering graduate focused on data-driven science, differentiable physics extended on scientific machine learning and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
     <div class="contact" style="width:32%;">
@@ -302,7 +302,8 @@ author_profile: true
     </h2>
     <div class="chips" role="list">
       <span class="chip">Data-Driven Science</span>
-      <span class="chip">Statistical Modeling, Applied Machine Learing, & Deep Learning</span>
+      <span class="chip">Statistical Modeling</span>
+      <span class="chip">Scientific Machine Learing</span>
       <span class="chip">Differentiable Physics</span>
       <span class="chip">Mathematical & Computational Modeling</span>
       <span class="chip">Numerical Methods - FEM, FDM, FVM, SEM, etc.</span>
