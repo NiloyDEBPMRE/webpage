@@ -1,0 +1,172 @@
+---
+title: "Teaching experience 2"
+collection: teaching
+type: "Workshop"
+permalink: /teaching/my notebook
+venue: "Personal Notes"
+date: 2015-01-01
+location: " "
+---
+
+
+This section is dedicated to my personal collection of notes and code, most of which were created/annotated as part of my learning journey. Some are related to my academic studies, while others were made just for fun. It would be a great pleasure if someone finds this helpful. 
+
+
+<h3> My Notes (Listed Partially)</h3>
+    
+    <ul class="class-notes-list" style="font-size: 14px; line-height: 1">
+        <li class="class-notes-item">
+            <strong>Course:</strong> Introduction to Thermodynamics | <strong>Instructor:</strong> Dr. John Smith | 
+            <a href="path/to/thermodynamics_notes.pdf" target="_blank">PDF</a>
+        </li>
+        <li class="class-notes-item">
+            <strong>Course:</strong> Fluid Mechanics | <strong>Instructor:</strong> Dr. Jane Doe | 
+            <a href="path/to/fluid_mechanics_notes.pdf" target="_blank">PDF</a>
+        </li>
+        <li class="class-notes-item">
+            <strong>Course:</strong> Computational Methods | <strong>Instructor:</strong> Prof. Alan Turing | 
+            <a href="path/to/computational_methods_notes.pdf" target="_blank">PDF</a>
+        </li>
+        <li class="class-notes-item">
+            <strong>Course:</strong> Advanced Mathematics | <strong>Instructor:</strong> Dr. Albert Einstein | 
+            <a href="path/to/advanced_mathematics_notes.pdf" target="_blank">PDF</a>
+        </li>
+        <li class="class-notes-item">
+            <strong>Course:</strong> Solid State Physics | <strong>Instructor:</strong> Prof. Richard Feynman | 
+            <a href="path/to/solid_state_physics_notes.pdf" target="_blank">PDF</a>
+        </li>
+    </ul>
+
+<h3>My Codes (Listed Partially)</h3>
+    
+    <ul class="code-list" style="font-size: 14px; line-height: 1">
+        <li class="code-item">
+            Introduction to Programming | <a href="path/to/intro_programming_code.py" target="_blank">Code</a>
+        </li>
+        <li class="code-item">
+            Data Structures | <a href="path/to/data_structures_code.py" target="_blank">Code</a>
+        </li>
+        <li class="code-item">
+            Machine Learning | <a href="path/to/machine_learning_code.py" target="_blank">Code</a>
+        </li>
+        <li class="code-item">
+            Web Development Basics | <a href="path/to/web_development_code.html" target="_blank">Code</a>
+        </li>
+        <li class="code-item">
+            Computational Physics | <a href="path/to/computational_physics_code.py" target="_blank">Code</a>
+        </li>
+    </ul>
+
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .book-list {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap to the next line */
+            gap: 20px; /* Space between books */
+            padding: 20px; /* Padding around the list */
+            justify-content: space-between; /* Space out items */
+        }
+        .book-item {
+            flex: 1 1 calc(33.33% - 20px); /* Each item takes up 33.33% width, minus gap */
+            box-sizing: border-box; /* Ensures padding and border are included in width */
+            border: 1px solid #ddd; /* Light border around each item */
+            padding: 10px; /* Padding inside each item */
+            text-align: center; /* Center-align text */
+            font-size: 12px; /* Font size for text */
+        }
+        .book-cover {
+            width: 100px; /* Width of book cover image */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 10px; /* Space between image and text */
+        }
+        .book-details {
+            line-height: 1.4; /* Line height for text */
+        }
+    </style>
+
+
+    <section id="academic-project">
+    <h3>Recommended Textbooks (Listed Partially)</h3>
+    <div class="book-list">
+        <div class="book-item">
+            <img src="/webpage/images/DDSE.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Data-Driven Science and Engineering<br>
+                <strong>Author:</strong> S. L. Brunton and J. N. Kutz<br>
+                <strong>Publisher:</strong> Cambridge University Press
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/TF.png" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Turbulent Flows<br>
+                <strong>Author:</strong> S. B. Pope<br>
+                <strong>Publisher:</strong> Cambridge University Press
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/VM.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Variational Methods<br>
+                <strong>Author:</strong> K. W. Cassel<br>
+                <strong>Publisher:</strong> Cambridge University Press
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/CCCM.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Climate Change and Climate Modeling<br>
+                <strong>Author:</strong> J. D. Neelin<br>
+                <strong>Publisher:</strong> Cambridge University Press
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/CPM.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Convection in Porous Media<br>
+                <strong>Author:</strong> D. A. Nield and A. Bejan<br>
+                <strong>Publisher:</strong> Springer
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/LVPCP.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Liquid-Vapor Phase Change Phenomena<br>
+                <strong>Author:</strong> V. P. Carey<br>
+                <strong>Publisher:</strong> CRC Press
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="/webpage/images/TKW.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <strong>Book Name:</strong> Thermodynamics<br>
+                <strong>Author:</strong> K. Wark and D. E. Richards<br>
+                <strong>Publisher:</strong> MCB, McGraw-Hill
+            </div>
+        </div>
+
+         <div class="book-item">
+          <img src="/webpage/images/STL.jpg" alt="Book Cover" class="book-cover">
+          <div class="book-details">
+                  <strong>Book Name:</strong> Statistical Thermodynamics<br>
+                  <strong>Author:</strong> N. M. Lairendeau<br>
+                  <strong>Publisher:</strong> Cambridge University Press
+              </div>
+          </div>
+          <div class="book-item">
+          <img src="/webpage/images/MNOPSE.jpg" alt="Book Cover" class="book-cover">
+          <div class="book-details">
+                  <strong>Book Name:</strong> Matrix, Numerical, and Optimization Methods in Science and Engineering<br>
+                  <strong>Author:</strong> K. W. Cassel<br>
+                  <strong>Publisher:</strong> Cambridge University Press
+              </div>
+          </div>
+        <!-- Add more book items as needed -->
+    </div>
+</section>
+
+
+
+

@@ -229,7 +229,7 @@ author_profile: true
       <p class="name">Niloy Deb</p>
       <p class="title">Mechanical Engineering Graduate</p>
       <p class="entry-desc" style="margin-top:8px;">
-        <strong>Summary:</strong> An aspiring mechanical engineering graduate focused on data-driven science, differentiable physics extended on scientific machine learning and statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
+        <strong>Summary:</strong> An aspiring mechanical engineering graduate focused on data-driven science, differentiable physics extended scientific machine learning, statistical inference, computational methods, and applied mathematics. Research interests include chaotic dynamical systems, turbulence, fluid flow through porous and subsuface media, fluid under multiphysics environment, and so on.
       </p>
     </div>
     <div class="contact" style="width:32%;">
@@ -410,7 +410,7 @@ author_profile: true
       <div class="institution">
         <img src="{{ site.baseurl }}/images/buet.png" alt="BUET logo" class="institution-logo">
         <div>
-          <div class="inst-name">Bangladesh University of Engineering and Technology</div>
+          <div class="inst-name">Bangladesh University of Engineering and Technology (BUET)</div>
           <div class="inst-sub">Lecturer, Dept. of Petroleum & Mineral Resources Engineering</div>
         </div>
       </div>
