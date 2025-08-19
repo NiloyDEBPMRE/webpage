@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 2"
+title: "My Notebook"
 collection: teaching
-type: "Workshop"
+type: "Personal/Lecture Notes"
 permalink: /teaching/my notebook
-venue: "Personal Notes"
-date: 2015-01-01
+venue: " "
+date: 2025-01-01
 location: " "
 ---
 
-
-This section is dedicated to my personal collection of notes and code, most of which were created/annotated as part of my learning journey. Some are related to my academic studies, while others were made just for fun. It would be a great pleasure if someone finds this helpful. 
-
+<p style="font-size: 14px; line-height: 1.4">
+   This section is dedicated to my personal collection of notes and code, most of which were created/annotated as part of my learning journey. Some are related to my academic studies, while others were made just for fun. It would be a great pleasure if someone finds this helpful.
+</p>
 
 <h3> My Notes (Listed Partially)</h3>
     
-    <ul class="class-notes-list" style="font-size: 14px; line-height: 1">
+   <ul class="class-notes-list" style="font-size: 14px; line-height: 1">
         <li class="class-notes-item">
             <strong>Course:</strong> Introduction to Thermodynamics | <strong>Instructor:</strong> Dr. John Smith | 
             <a href="path/to/thermodynamics_notes.pdf" target="_blank">PDF</a>
@@ -39,7 +39,7 @@ This section is dedicated to my personal collection of notes and code, most of w
 
 <h3>My Codes (Listed Partially)</h3>
     
-    <ul class="code-list" style="font-size: 14px; line-height: 1">
+   <ul class="code-list" style="font-size: 14px; line-height: 1">
         <li class="code-item">
             Introduction to Programming | <a href="path/to/intro_programming_code.py" target="_blank">Code</a>
         </li>
@@ -85,9 +85,7 @@ This section is dedicated to my personal collection of notes and code, most of w
             line-height: 1.4; /* Line height for text */
         }
     </style>
-
-
-    <section id="academic-project">
+   <section id="academic-project">
     <h3>Recommended Textbooks (Listed Partially)</h3>
     <div class="book-list">
         <div class="book-item">
@@ -147,7 +145,7 @@ This section is dedicated to my personal collection of notes and code, most of w
             </div>
         </div>
 
-         <div class="book-item">
+   <div class="book-item">
           <img src="/webpage/images/STL.jpg" alt="Book Cover" class="book-cover">
           <div class="book-details">
                   <strong>Book Name:</strong> Statistical Thermodynamics<br>
