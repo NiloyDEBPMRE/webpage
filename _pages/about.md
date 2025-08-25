@@ -19,7 +19,7 @@ redirect_from:
 </p>
 
 <figure style="text-align: center; margin: 10px 0;">
-    <img src="images/myinterests.png" alt="Research Interests Venn Diagram" style="max-width: 110%; height: auto;">
+    <img src="images/myinterests.png" alt="Research Interests Venn Diagram" style="max-width: 120%; height: auto;">
 </figure>
 
 
