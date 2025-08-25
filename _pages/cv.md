@@ -171,9 +171,13 @@ author_profile: true
   }
 
   .dot {
-    margin: 0 8px;
+     font-size: 1.3em;   /* make it larger than surrounding text */
+    font-weight: bold;  /* make it thicker */
+    margin: 0 6px;      /* spacing before and after */
+    line-height: 1;     /* keeps it aligned vertically */
     color: var(--muted);
   }
+
 
   /* compact lists */
   .compact-list {
